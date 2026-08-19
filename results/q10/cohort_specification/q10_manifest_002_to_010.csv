@@ -1,0 +1,10 @@
+subject_id,subject_num,selection_policy,nirs_data_file
+subject002,2,first_complete_cycle,C:\aliceproject\GLM\first_level\nirs_spm_inputs_v2_fulltimeline_trial1\subject002\subject002_nirs_data.mat
+subject003,3,full_recording,C:\aliceproject\GLM\first_level\nirs_spm_inputs\subject003\subject003_nirs_data.mat
+subject004,4,full_recording,C:\aliceproject\GLM\first_level\nirs_spm_inputs\subject004\subject004_nirs_data.mat
+subject005,5,full_recording,C:\aliceproject\GLM\first_level\nirs_spm_inputs\subject005\subject005_nirs_data.mat
+subject006,6,full_recording,C:\aliceproject\GLM\first_level\nirs_spm_inputs\subject006\subject006_nirs_data.mat
+subject007,7,full_recording,C:\aliceproject\GLM\first_level\nirs_spm_inputs\subject007\subject007_nirs_data.mat
+subject008,8,full_recording,C:\aliceproject\GLM\first_level\nirs_spm_inputs\subject008\subject008_nirs_data.mat
+subject009,9,full_recording,C:\aliceproject\GLM\first_level\nirs_spm_inputs\subject009\subject009_nirs_data.mat
+subject010,10,first_complete_cycle,C:\aliceproject\GLM\first_level\nirs_spm_inputs_v2_fulltimeline_trial1\subject010\subject010_nirs_data.mat

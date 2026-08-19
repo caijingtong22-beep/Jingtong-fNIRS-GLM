@@ -1,0 +1,62 @@
+﻿SamplingSite.id,SamplingSite.name,VCSamplingSite.name,Channel,Laterality,JC RoI Allocation
+1,ch01:Src01-Det17,ch01:Src01-Det01,Long,Left,Medial Frontopolar PFC
+2,ch02:Src01-Det18,ch02:Src01-Det02,Long,Midline,Medial Frontopolar PFC
+3,ch03:Src01-Det25,ch03:Src01-Det09,Long,Right,Medial Frontopolar PFC
+4,ch04:Src01-Det39,,Short,,
+5,ch05:Src02-Det17,ch05:Src02-Det01,Long,Left,Lateral Frontopolar PFC
+6,ch06:Src02-Det19,ch06:Src02-Det03,Long,Left,Lateral Frontopolar PFC
+7,ch07:Src02-Det40,,Short,,
+8,ch08:Src03-Det17,ch08:Src03-Det01,Long,Left,Lateral Frontopolar PFC
+9,ch09:Src03-Det18,ch09:Src03-Det02,Long,Left,Lateral Frontopolar PFC
+10,ch10:Src03-Det19,ch10:Src03-Det03,Long,Left,DL PFC
+11,ch11:Src03-Det41,,Short,,
+12,ch12:Src04-Det19,ch12:Src04-Det03,Long,Left,DL PFC
+13,ch13:Src04-Det20,ch13:Src04-Det04,Long,Left,DL PFC
+14,ch14:Src04-Det21,ch14:Src04-Det05,Long,Left,DL PFC
+15,ch15:Src04-Det42,,Short,,
+16,ch16:Src05-Det19,ch16:Src05-Det03,Long,Left,VL PFC
+17,ch17:Src05-Det21,ch17:Src05-Det05,Long,Left,VL PFC
+18,ch18:Src05-Det23,ch18:Src05-Det07,Long,Left,VL PFC
+19,ch19:Src05-Det43,,Short,,
+20,ch20:Src06-Det20,ch20:Src06-Det04,Long,Left,DL PFC
+21,ch21:Src06-Det21,ch21:Src06-Det05,Long,Left,DL PFC
+22,ch22:Src06-Det22,ch22:Src06-Det06,Long,Left,SMA
+23,ch23:Src06-Det24,ch23:Src06-Det08,Long,Left,PMC
+24,ch24:Src06-Det44,,Short,,
+25,ch25:Src07-Det21,ch25:Src07-Det05,Long,Left,PMC
+26,ch26:Src07-Det23,ch26:Src07-Det07,Long,Left,PMC
+27,ch27:Src07-Det24,ch27:Src07-Det08,Long,Left,PMC
+28,ch28:Src07-Det45,,Short,,
+29,ch29:Src08-Det24,ch29:Src08-Det08,Long,Left,M1
+30,ch30:Src08-Det46,,Short,,
+31,ch31:Src09-Det25,ch31:Src09-Det09,Long,Right,Lateral Frontopolar PFC
+32,ch32:Src09-Det27,ch32:Src09-Det11,Long,Right,Lateral Frontopolar PFC
+33,ch33:Src09-Det31,,Short,,
+34,ch34:Src10-Det18,ch34:Src10-Det02,Long,Right,Lateral Frontopolar PFC
+35,ch35:Src10-Det25,ch35:Src10-Det09,Long,Right,Lateral Frontopolar PFC
+36,ch36:Src10-Det27,ch36:Src10-Det11,Long,Right,DL PFC
+37,ch37:Src10-Det32,,Short,,
+38,ch38:Src11-Det18,ch38:Src11-Det02,Long,Midline,Medial PFC
+39,ch39:Src11-Det20,ch39:Src11-Det04,Long,Left,DL PFC
+40,ch40:Src11-Det22,ch40:Src11-Det22,Long,Midline,Medial PFC
+41,ch41:Src11-Det26,ch41:Src11-Det10,Long,Right,DL PFC
+42,ch42:Src11-Det33,,Short,,
+43,ch43:Src12-Det26,ch43:Src12-Det10,Long,Right,DL PFC
+44,ch44:Src12-Det27,ch44:Src12-Det11,Long,Right,DL PFC
+45,ch45:Src12-Det28,ch45:Src12-Det12,Long,Right,DL PFC
+46,ch46:Src12-Det34,,Short,,
+47,ch47:Src13-Det22,ch47:Src13-Det06,Long,Right,SMA
+48,ch48:Src13-Det26,ch48:Src13-Det10,Long,Right,DL PFC
+49,ch49:Src13-Det28,ch49:Src13-Det12,Long,Right,DL PFC
+50,ch50:Src13-Det29,ch50:Src13-Det13,Long,Right,PMC
+51,ch51:Src13-Det35,,Short,,
+52,ch52:Src14-Det27,ch52:Src14-Det11,Long,Right,VL PFC
+53,ch53:Src14-Det28,ch53:Src14-Det12,Long,Right,VL PFC
+54,ch54:Src14-Det30,ch54:Src14-Det14,Long,Right,VL PFC
+55,ch55:Src14-Det36,,Short,,
+56,ch56:Src15-Det28,ch56:Src15-Det12,Long,Right,PMC
+57,ch57:Src15-Det29,ch57:Src15-Det13,Long,Right,PMC
+58,ch58:Src15-Det30,ch58:Src15-Det14,Long,Right,PMC
+59,ch59:Src15-Det37,,Short,,
+60,ch60:Src16-Det29,ch60:Src16-Det13,Long,Right,M1
+61,ch61:Src16-Det38,,Short,,

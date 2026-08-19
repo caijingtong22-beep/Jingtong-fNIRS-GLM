@@ -1,0 +1,16 @@
+# Raw and participant-level data
+*.snirf
+*.nirs
+*.mat
+*.mp4
+*.pdf
+*.zip
+
+# MATLAB editor and temporary files
+*.asv
+*.autosave
+*.tmp
+
+# System files
+.DS_Store
+Thumbs.db
