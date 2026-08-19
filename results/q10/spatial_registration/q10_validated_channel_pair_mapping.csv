@@ -1,0 +1,62 @@
+channel_id,sampling_site_name,vc_sampling_site_name,channel_type,laterality,roi,validated_pair_name,source_index,detector_index,mapping_rule,pair_present_in_subject001_snirf,rendered_geometry
+1,ch01:Src01-Det17,ch01:Src01-Det01,Long,Left,Medial Frontopolar PFC,ch01:Src01-Det01,1,1,VCSamplingSite_name,1,1
+2,ch02:Src01-Det18,ch02:Src01-Det02,Long,Midline,Medial Frontopolar PFC,ch02:Src01-Det02,1,2,VCSamplingSite_name,1,1
+3,ch03:Src01-Det25,ch03:Src01-Det09,Long,Right,Medial Frontopolar PFC,ch03:Src01-Det09,1,9,VCSamplingSite_name,1,1
+4,ch04:Src01-Det39,,Short,,,,NaN,NaN,short_channel_not_rendered,0,0
+5,ch05:Src02-Det17,ch05:Src02-Det01,Long,Left,Lateral Frontopolar PFC,ch05:Src02-Det01,2,1,VCSamplingSite_name,1,1
+6,ch06:Src02-Det19,ch06:Src02-Det03,Long,Left,Lateral Frontopolar PFC,ch06:Src02-Det03,2,3,VCSamplingSite_name,1,1
+7,ch07:Src02-Det40,,Short,,,,NaN,NaN,short_channel_not_rendered,0,0
+8,ch08:Src03-Det17,ch08:Src03-Det01,Long,Left,Lateral Frontopolar PFC,ch08:Src03-Det01,3,1,VCSamplingSite_name,1,1
+9,ch09:Src03-Det18,ch09:Src03-Det02,Long,Left,Lateral Frontopolar PFC,ch09:Src03-Det02,3,2,VCSamplingSite_name,1,1
+10,ch10:Src03-Det19,ch10:Src03-Det03,Long,Left,DL PFC,ch10:Src03-Det03,3,3,VCSamplingSite_name,1,1
+11,ch11:Src03-Det41,,Short,,,,NaN,NaN,short_channel_not_rendered,0,0
+12,ch12:Src04-Det19,ch12:Src04-Det03,Long,Left,DL PFC,ch12:Src04-Det03,4,3,VCSamplingSite_name,1,1
+13,ch13:Src04-Det20,ch13:Src04-Det04,Long,Left,DL PFC,ch13:Src04-Det04,4,4,VCSamplingSite_name,1,1
+14,ch14:Src04-Det21,ch14:Src04-Det05,Long,Left,DL PFC,ch14:Src04-Det05,4,5,VCSamplingSite_name,1,1
+15,ch15:Src04-Det42,,Short,,,,NaN,NaN,short_channel_not_rendered,0,0
+16,ch16:Src05-Det19,ch16:Src05-Det03,Long,Left,VL PFC,ch16:Src05-Det03,5,3,VCSamplingSite_name,1,1
+17,ch17:Src05-Det21,ch17:Src05-Det05,Long,Left,VL PFC,ch17:Src05-Det05,5,5,VCSamplingSite_name,1,1
+18,ch18:Src05-Det23,ch18:Src05-Det07,Long,Left,VL PFC,ch18:Src05-Det07,5,7,VCSamplingSite_name,1,1
+19,ch19:Src05-Det43,,Short,,,,NaN,NaN,short_channel_not_rendered,0,0
+20,ch20:Src06-Det20,ch20:Src06-Det04,Long,Left,DL PFC,ch20:Src06-Det04,6,4,VCSamplingSite_name,1,1
+21,ch21:Src06-Det21,ch21:Src06-Det05,Long,Left,DL PFC,ch21:Src06-Det05,6,5,VCSamplingSite_name,1,1
+22,ch22:Src06-Det22,ch22:Src06-Det06,Long,Left,SMA,ch22:Src06-Det06,6,6,VCSamplingSite_name,1,1
+23,ch23:Src06-Det24,ch23:Src06-Det08,Long,Left,PMC,ch23:Src06-Det08,6,8,VCSamplingSite_name,1,1
+24,ch24:Src06-Det44,,Short,,,,NaN,NaN,short_channel_not_rendered,0,0
+25,ch25:Src07-Det21,ch25:Src07-Det05,Long,Left,PMC,ch25:Src07-Det05,7,5,VCSamplingSite_name,1,1
+26,ch26:Src07-Det23,ch26:Src07-Det07,Long,Left,PMC,ch26:Src07-Det07,7,7,VCSamplingSite_name,1,1
+27,ch27:Src07-Det24,ch27:Src07-Det08,Long,Left,PMC,ch27:Src07-Det08,7,8,VCSamplingSite_name,1,1
+28,ch28:Src07-Det45,,Short,,,,NaN,NaN,short_channel_not_rendered,0,0
+29,ch29:Src08-Det24,ch29:Src08-Det08,Long,Left,M1,ch29:Src08-Det08,8,8,VCSamplingSite_name,1,1
+30,ch30:Src08-Det46,,Short,,,,NaN,NaN,short_channel_not_rendered,0,0
+31,ch31:Src09-Det25,ch31:Src09-Det09,Long,Right,Lateral Frontopolar PFC,ch31:Src09-Det09,9,9,VCSamplingSite_name,1,1
+32,ch32:Src09-Det27,ch32:Src09-Det11,Long,Right,Lateral Frontopolar PFC,ch32:Src09-Det11,9,11,VCSamplingSite_name,1,1
+33,ch33:Src09-Det31,,Short,,,,NaN,NaN,short_channel_not_rendered,0,0
+34,ch34:Src10-Det18,ch34:Src10-Det02,Long,Right,Lateral Frontopolar PFC,ch34:Src10-Det02,10,2,VCSamplingSite_name,1,1
+35,ch35:Src10-Det25,ch35:Src10-Det09,Long,Right,Lateral Frontopolar PFC,ch35:Src10-Det09,10,9,VCSamplingSite_name,1,1
+36,ch36:Src10-Det27,ch36:Src10-Det11,Long,Right,DL PFC,ch36:Src10-Det11,10,11,VCSamplingSite_name,1,1
+37,ch37:Src10-Det32,,Short,,,,NaN,NaN,short_channel_not_rendered,0,0
+38,ch38:Src11-Det18,ch38:Src11-Det02,Long,Midline,Medial PFC,ch38:Src11-Det02,11,2,VCSamplingSite_name,1,1
+39,ch39:Src11-Det20,ch39:Src11-Det04,Long,Left,DL PFC,ch39:Src11-Det04,11,4,VCSamplingSite_name,1,1
+40,ch40:Src11-Det22,ch40:Src11-Det22,Long,Midline,Medial PFC,ch40:Src11-Det06,11,6,audited_correction_raw_Det22_to_VC_Det06,1,1
+41,ch41:Src11-Det26,ch41:Src11-Det10,Long,Right,DL PFC,ch41:Src11-Det10,11,10,VCSamplingSite_name,1,1
+42,ch42:Src11-Det33,,Short,,,,NaN,NaN,short_channel_not_rendered,0,0
+43,ch43:Src12-Det26,ch43:Src12-Det10,Long,Right,DL PFC,ch43:Src12-Det10,12,10,VCSamplingSite_name,1,1
+44,ch44:Src12-Det27,ch44:Src12-Det11,Long,Right,DL PFC,ch44:Src12-Det11,12,11,VCSamplingSite_name,1,1
+45,ch45:Src12-Det28,ch45:Src12-Det12,Long,Right,DL PFC,ch45:Src12-Det12,12,12,VCSamplingSite_name,1,1
+46,ch46:Src12-Det34,,Short,,,,NaN,NaN,short_channel_not_rendered,0,0
+47,ch47:Src13-Det22,ch47:Src13-Det06,Long,Right,SMA,ch47:Src13-Det06,13,6,VCSamplingSite_name,1,1
+48,ch48:Src13-Det26,ch48:Src13-Det10,Long,Right,DL PFC,ch48:Src13-Det10,13,10,VCSamplingSite_name,1,1
+49,ch49:Src13-Det28,ch49:Src13-Det12,Long,Right,DL PFC,ch49:Src13-Det12,13,12,VCSamplingSite_name,1,1
+50,ch50:Src13-Det29,ch50:Src13-Det13,Long,Right,PMC,ch50:Src13-Det13,13,13,VCSamplingSite_name,1,1
+51,ch51:Src13-Det35,,Short,,,,NaN,NaN,short_channel_not_rendered,0,0
+52,ch52:Src14-Det27,ch52:Src14-Det11,Long,Right,VL PFC,ch52:Src14-Det11,14,11,VCSamplingSite_name,1,1
+53,ch53:Src14-Det28,ch53:Src14-Det12,Long,Right,VL PFC,ch53:Src14-Det12,14,12,VCSamplingSite_name,1,1
+54,ch54:Src14-Det30,ch54:Src14-Det14,Long,Right,VL PFC,ch54:Src14-Det14,14,14,VCSamplingSite_name,1,1
+55,ch55:Src14-Det36,,Short,,,,NaN,NaN,short_channel_not_rendered,0,0
+56,ch56:Src15-Det28,ch56:Src15-Det12,Long,Right,PMC,ch56:Src15-Det12,15,12,VCSamplingSite_name,1,1
+57,ch57:Src15-Det29,ch57:Src15-Det13,Long,Right,PMC,ch57:Src15-Det13,15,13,VCSamplingSite_name,1,1
+58,ch58:Src15-Det30,ch58:Src15-Det14,Long,Right,PMC,ch58:Src15-Det14,15,14,VCSamplingSite_name,1,1
+59,ch59:Src15-Det37,,Short,,,,NaN,NaN,short_channel_not_rendered,0,0
+60,ch60:Src16-Det29,ch60:Src16-Det13,Long,Right,M1,ch60:Src16-Det13,16,13,VCSamplingSite_name,1,1
+61,ch61:Src16-Det38,,Short,,,,NaN,NaN,short_channel_not_rendered,0,0
