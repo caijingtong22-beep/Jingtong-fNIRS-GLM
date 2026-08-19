@@ -1,0 +1,3 @@
+subject_id,session_id,snirf_file,stim_index,condition,occurrence,onset_sec,duration_sec,end_sec,amplitude,subject_num
+9,101,Subj009_Sess101_run001.snirf,24,HIHEProcedure,1,1404.96081542969,274.071563720703,1679.03237915039,1,9
+9,101,Subj009_Sess101_run001.snirf,12,LILEProcedure,1,1832.97644042969,348.389373779297,2181.36581420898,1,9
