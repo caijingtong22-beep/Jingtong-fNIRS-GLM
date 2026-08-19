@@ -41,13 +41,13 @@ function plot_q10_roi_channel_topography()
     tiledlayout(1, 2, 'TileSpacing', 'compact', 'Padding', 'compact');
     draw_panel(hbo, beta_limit, 'HbO');
     draw_panel(hbr, beta_limit, 'HbR');
-    sgtitle({'Q10: group mean contrast beta (HILoadHE - HILoadLE)', ...
+    main_title = sgtitle({'Q10: group mean contrast beta (HILoadHE - HILoadLE)', ...
         '45 long channels; n = 30; dots are measured channels; background is a display interpolation'}, ...
-        'FontWeight', 'bold', 'FontSize', 16);
+        'FontWeight', 'bold', 'FontSize', 16, 'Color', 'k');
 
-    annotation(figure_handle, 'textbox', [0.15 0.018 0.70 0.045], 'String', ...
-        'Dashed ROI outlines are allocation-based channel groupings (not atlas-derived cortical boundaries). No channel survived BH-FDR correction in this exploratory group summary.', ...
-        'EdgeColor', 'none', 'HorizontalAlignment', 'center', 'FontSize', 10);
+    annotation(figure_handle, 'textbox', [0.12 0.018 0.76 0.045], 'String', ...
+        'ROI labels indicate approximate channel-group locations only and do not represent atlas-derived cortical boundaries.', ...
+        'EdgeColor', 'none', 'HorizontalAlignment', 'center', 'FontSize', 10, 'Color', 'k');
 
     png_file = fullfile(output_dir, 'q10_group_roi_channel_topography_long45_n30.png');
     pdf_file = fullfile(output_dir, 'q10_group_roi_channel_topography_long45_n30.pdf');
@@ -99,25 +99,14 @@ function draw_panel(data, beta_limit, chromophore)
     colormap(ax, blue_white_red(256));
     clim(ax, [-beta_limit beta_limit]);
 
-    % The broad ROI boundaries are deliberately shown as allocation groups,
-    % not precise anatomical/atlas parcels.
+    % Broad ROI names are text annotations only.  No ROI outline is drawn,
+    % so this panel does not imply a precise anatomical parcel or nesting.
     roi_names = unique(data.roi, 'stable');
-    roi_colours = lines(numel(roi_names));
     for r = 1:numel(roi_names)
         subset = data(data.roi == roi_names(r), :);
         centre = [mean(subset.x), mean(subset.y)];
-        if height(subset) >= 3
-            points = [subset.x, subset.y];
-            hull_index = convhull(points(:,1), points(:,2));
-            hull = points(hull_index, :);
-            hull = centre + 1.22*(hull-centre);
-            plot(ax, hull(:,1), hull(:,2), '--', 'Color', roi_colours(r,:), 'LineWidth', 1.35);
-        else
-            rectangle(ax, 'Position', [centre(1)-7 centre(2)-5 14 10], 'Curvature', [1 1], ...
-                'EdgeColor', roi_colours(r,:), 'LineStyle', '--', 'LineWidth', 1.35);
-        end
         text(ax, centre(1), centre(2), short_roi_name(roi_names(r)), 'HorizontalAlignment', 'center', ...
-            'VerticalAlignment', 'middle', 'FontWeight', 'bold', 'Color', roi_colours(r,:), ...
+            'VerticalAlignment', 'middle', 'FontWeight', 'bold', 'Color', 'k', ...
             'BackgroundColor', 'w', 'Margin', 1, 'FontSize', 9);
     end
 
@@ -126,22 +115,24 @@ function draw_panel(data, beta_limit, chromophore)
         text(ax, data.x(idx), data.y(idx)-2.8, sprintf('%d', data.channel_id(idx)), ...
             'HorizontalAlignment', 'center', 'FontSize', 7, 'FontWeight', 'bold', 'Color', 'k');
     end
-    title(ax, sprintf('%s: mean beta, HE - LE', chromophore), 'FontWeight', 'bold');
+    title(ax, sprintf('%s: mean beta, HE - LE', chromophore), 'FontWeight', 'bold', 'Color', 'k');
     xlim(ax, x_center + [-radius_x-12 radius_x+12]);
     ylim(ax, y_center + [-radius_y-8 radius_y+19]);
     cb = colorbar(ax);
     cb.Label.String = 'Mean contrast beta (\muM)';
     cb.Label.FontSize = 10;
-    text(ax, x_center, y_center-radius_y-4, 'Posterior', 'HorizontalAlignment', 'center', 'FontSize', 9);
-    text(ax, x_center, y_center+radius_y+13, 'Anterior / nose', 'HorizontalAlignment', 'center', 'FontSize', 9);
+    cb.Label.Color = 'k';
+    cb.Color = 'k';
+    text(ax, x_center, y_center-radius_y-4, 'Posterior', 'HorizontalAlignment', 'center', 'FontSize', 9, 'Color', 'k');
+    text(ax, x_center, y_center+radius_y+13, 'Anterior / nose', 'HorizontalAlignment', 'center', 'FontSize', 9, 'Color', 'k');
 end
 
 function label = short_roi_name(roi)
     switch string(roi)
-        case "Medial Frontopolar PFC", label = 'mFPFC';
+        case "Medial Frontopolar PFC", label = 'mFPC';
         case "Lateral Frontopolar PFC", label = 'lFPFC';
-        case "Dorsolateral PFC", label = 'dlPFC';
-        case "Ventrolateral PFC", label = 'vlPFC';
+        case "Dorsolateral PFC", label = 'DL PFC';
+        case "Ventrolateral PFC", label = 'VL PFC';
         case "Medial PFC", label = 'mPFC';
         case "Premotor Cortex", label = 'PMC';
         case "Supplementary Motor Area", label = 'SMA';
