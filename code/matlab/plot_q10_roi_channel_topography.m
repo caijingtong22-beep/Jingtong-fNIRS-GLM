@@ -46,7 +46,7 @@ function plot_q10_roi_channel_topography()
         'FontWeight', 'bold', 'FontSize', 16, 'Color', 'k');
 
     annotation(figure_handle, 'textbox', [0.12 0.018 0.76 0.045], 'String', ...
-        'ROI labels indicate approximate channel-group locations only and do not represent atlas-derived cortical boundaries.', ...
+        'Same-colour channel rings and ROI labels denote allocation-based channel groups only; they do not represent atlas-derived cortical boundaries.', ...
         'EdgeColor', 'none', 'HorizontalAlignment', 'center', 'FontSize', 10, 'Color', 'k');
 
     png_file = fullfile(output_dir, 'q10_group_roi_channel_topography_long45_n30.png');
@@ -101,16 +101,20 @@ function draw_panel(data, beta_limit, chromophore)
 
     % Broad ROI names are text annotations only.  No ROI outline is drawn,
     % so this panel does not imply a precise anatomical parcel or nesting.
+    scatter(ax, data.x, data.y, 86, data.mean_contrast_beta, 'filled', 'MarkerEdgeColor', 'k', 'LineWidth', 0.7);
     roi_names = unique(data.roi, 'stable');
     for r = 1:numel(roi_names)
         subset = data(data.roi == roi_names(r), :);
         centre = [mean(subset.x), mean(subset.y)];
+        roi_colour = roi_colour_for_name(roi_names(r));
+        % The thin, unfilled ring encodes only ROI membership. The central
+        % marker fill remains the contrast beta and is not overwritten.
+        scatter(ax, subset.x, subset.y, 108, 'o', 'MarkerFaceColor', 'none', ...
+            'MarkerEdgeColor', roi_colour, 'LineWidth', 1.6);
         text(ax, centre(1), centre(2), short_roi_name(roi_names(r)), 'HorizontalAlignment', 'center', ...
-            'VerticalAlignment', 'middle', 'FontWeight', 'bold', 'Color', 'k', ...
+            'VerticalAlignment', 'middle', 'FontWeight', 'bold', 'Color', roi_colour, ...
             'BackgroundColor', 'w', 'Margin', 1, 'FontSize', 9);
     end
-
-    scatter(ax, data.x, data.y, 86, data.mean_contrast_beta, 'filled', 'MarkerEdgeColor', 'k', 'LineWidth', 0.7);
     for idx = 1:height(data)
         text(ax, data.x(idx), data.y(idx)-2.8, sprintf('%d', data.channel_id(idx)), ...
             'HorizontalAlignment', 'center', 'FontSize', 7, 'FontWeight', 'bold', 'Color', 'k');
@@ -131,13 +135,29 @@ function label = short_roi_name(roi)
     switch string(roi)
         case "Medial Frontopolar PFC", label = 'mFPC';
         case "Lateral Frontopolar PFC", label = 'lFPFC';
-        case "Dorsolateral PFC", label = 'DL PFC';
-        case "Ventrolateral PFC", label = 'VL PFC';
+        case {"Dorsolateral PFC", "DL PFC"}, label = 'DL PFC';
+        case {"Ventrolateral PFC", "VL PFC"}, label = 'VL PFC';
         case "Medial PFC", label = 'mPFC';
-        case "Premotor Cortex", label = 'PMC';
-        case "Supplementary Motor Area", label = 'SMA';
-        case "Primary Motor Cortex", label = 'M1';
+        case {"Premotor Cortex", "PMC"}, label = 'PMC';
+        case {"Supplementary Motor Area", "SMA"}, label = 'SMA';
+        case {"Primary Motor Cortex", "M1"}, label = 'M1';
         otherwise, label = char(roi);
+    end
+end
+
+function colour = roi_colour_for_name(roi)
+    % Stable, high-contrast ROI palette. These colours are used only for
+    % channel membership rings and ROI text, never for beta magnitude.
+    switch string(roi)
+        case "Medial Frontopolar PFC", colour = [0.00 0.35 0.70]; % blue
+        case "Lateral Frontopolar PFC", colour = [0.85 0.33 0.10]; % vermilion
+        case {"Dorsolateral PFC", "DL PFC"}, colour = [0.45 0.15 0.65]; % purple
+        case {"Ventrolateral PFC", "VL PFC"}, colour = [0.10 0.55 0.45]; % green
+        case "Medial PFC", colour = [0.75 0.15 0.35]; % magenta-red
+        case {"Premotor Cortex", "PMC"}, colour = [0.05 0.55 0.75]; % cyan-blue
+        case {"Supplementary Motor Area", "SMA"}, colour = [0.55 0.40 0.00]; % ochre
+        case {"Primary Motor Cortex", "M1"}, colour = [0.30 0.30 0.30]; % charcoal
+        otherwise, colour = [0.20 0.20 0.20];
     end
 end
 
