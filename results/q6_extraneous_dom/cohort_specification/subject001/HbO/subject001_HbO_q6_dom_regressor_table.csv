@@ -1,0 +1,6 @@
+column_index,regressor,is_constant
+1,Sn(1) DivisionOfMesoappendixLILE*bf(1),0
+2,Sn(1) DivisionOfMesoappendixHILE*bf(1),0
+3,Sn(1) DivisionOfMesoappendixLIHE*bf(1),0
+4,Sn(1) DivisionOfMesoappendixHIHE*bf(1),0
+5,Sn(1) constant,1
