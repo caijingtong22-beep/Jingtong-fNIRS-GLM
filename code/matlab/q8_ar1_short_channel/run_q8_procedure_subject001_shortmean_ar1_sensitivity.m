@@ -6,12 +6,12 @@ function [contrast_results, diagnostics] = run_q8_procedure_subject001_shortmean
 
 if nargin < 1, channel_id = 1; end
 subject_label = 'subject001';
-this_file = mfilename('fullpath'); repo_root = fileparts(fileparts(fileparts(this_file)));
+this_file = mfilename('fullpath'); repo_root = fileparts(fileparts(fileparts(fileparts(this_file))));
 glm_root = 'C:\\aliceproject\\GLM'; first_level = fullfile(glm_root, 'first_level');
-q8_root = fullfile(repo_root, 'results', 'q8_hihe_vs_lile_procedure', 'cohort_specification', subject_label);
+q8_root = fullfile(repo_root, 'results', 'q8_ar1_short_channel', subject_label);
 input_file = fullfile(first_level, 'nirs_spm_inputs_v2_fulltimeline_trial1', subject_label, 'subject001_nirs_data.mat');
 metadata_file = fullfile(first_level, 'nirs_spm_inputs', subject_label, 'subject001_channel_metadata.csv');
-output_root = fullfile(q8_root, 'shortmean_ar1_sensitivity'); if ~isfolder(output_root), mkdir(output_root); end
+output_root = q8_root; if ~isfolder(output_root), mkdir(output_root); end
 assert(isfile(input_file) && isfile(metadata_file), 'Missing subject001 input or channel metadata.');
 
 data = load(input_file, 'nirs_data'); nirs_data = data.nirs_data; clear data;
