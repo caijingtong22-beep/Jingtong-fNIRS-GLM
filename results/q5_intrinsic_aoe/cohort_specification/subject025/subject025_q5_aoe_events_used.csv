@@ -1,0 +1,5 @@
+subject_id,session_id,snirf_file,stim_index,condition,occurrence,onset_sec,duration_sec,end_sec,amplitude,sn
+25,101,Subj025_Sess101_run001.snirf,39,ApplicationOfEndoloopsHILE,1,1500.90551757812,370.409484863281,1871.31500244141,1,25
+25,101,Subj025_Sess101_run001.snirf,38,ApplicationOfEndoloopsLILE,1,2262.56494140625,98.6972198486328,2361.26216125488,1,25
+25,101,Subj025_Sess101_run001.snirf,40,ApplicationOfEndoloopsLIHE,1,2848.45678710938,326.565887451172,3175.02267456055,1,25
+25,101,Subj025_Sess101_run001.snirf,41,ApplicationOfEndoloopsHIHE,1,3616.40747070312,80.216064453125,3696.62353515625,1,25

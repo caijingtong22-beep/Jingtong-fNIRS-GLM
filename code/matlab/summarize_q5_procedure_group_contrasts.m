@@ -1,0 +1,6 @@
+function G=summarize_q5_procedure_group_contrasts(phase_key)
+if nargin<1,phase_key="procedure";end;root=fullfile(fileparts(fileparts(fileparts(mfilename('fullpath')))),'results',sprintf('q5_intrinsic_%s',phase_key),'cohort_specification');G=table();
+for hb=["HbO","HbR"],B=[];info=table();for s=1:30,sid=sprintf('subject%03d',s);T=readtable(fullfile(root,sid,sprintf('%s_%s_q5_high_intrinsic_minus_low_intrinsic_%s_channel_contrasts.csv',sid,hb,phase_key)),'TextType','string');B(s,:)=T.contrast_beta(:)';if isempty(info),info=T(:,{'channel_index','channel_id','channel_type','roi','laterality'});end,end;n=sum(isfinite(B));mu=mean(B,1,'omitnan');sd=std(B,0,1,'omitnan');se=sd./sqrt(n);t=mu./se;p=betainc((n-1)./((n-1)+t.^2),(n-1)/2,.5);q=bh(p);G=[G;table(repmat(hb,61,1),n(:),mu(:),sd(:),se(:),t(:),p(:),q(:),'VariableNames',{'hemoglobin','n_subjects','mean_contrast_beta','sd_contrast_beta','group_se','group_t','group_p_two_sided','group_q_bh61'}),info];end
+writetable(G,fullfile(root,sprintf('q5_high_intrinsic_minus_low_intrinsic_%s_group_channel_summary_n30.csv',phase_key)));disp(groupsummary(G,'hemoglobin','sum','group_q_bh61'));
+end
+function q=bh(p),[s,o]=sort(p(:));m=numel(s);z=min(1,flipud(cummin(flipud(s.*m./(1:m)'))));q=zeros(size(p));q(o)=z;end

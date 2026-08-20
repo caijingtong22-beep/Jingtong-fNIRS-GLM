@@ -1,4 +1,4 @@
-function outputs = plot_q8_procedure_design_and_fit(subject_num, channel_id, hb_label)
+function outputs = plot_q8_procedure_design_and_fit(subject_num, channel_id, hb_label, phase_key)
 % Plot Q8 Procedure's canonical HRF, convolved-regressor heatmap, and,
 % after estimation, high-pass-filtered observed/fitted/residual traces.
 %
@@ -13,7 +13,11 @@ function outputs = plot_q8_procedure_design_and_fit(subject_num, channel_id, hb_
 if nargin < 1, subject_num = 1; end
 if nargin < 2, channel_id = 1; end
 if nargin < 3, hb_label = "HbO"; end
+if nargin < 4, phase_key = "procedure"; end
 hb_label = string(hb_label);
+phase_key = lower(string(phase_key));
+assert(ismember(phase_key, ["procedure", "dom", "aoe"]), 'phase_key must be procedure, dom, or aoe.');
+phase_display = upper(phase_key);
 assert(ismember(hb_label, ["HbO", "HbR"]), 'hb_label must be HbO or HbR.');
 assert(isscalar(subject_num) && subject_num >= 1 && subject_num <= 30, ...
     'subject_num must be in 1:30.');
@@ -23,10 +27,10 @@ repo_root = fileparts(fileparts(fileparts(this_file)));
 glm_root = 'C:\\aliceproject\\GLM';
 first_level = fullfile(glm_root, 'first_level');
 subject_label = sprintf('subject%03d', subject_num);
-spec_root = fullfile(repo_root, 'results', 'q8_hihe_vs_lile_procedure', ...
+spec_root = fullfile(repo_root, 'results', sprintf('q8_hihe_vs_lile_%s', phase_key), ...
     'cohort_specification', subject_label, char(hb_label));
 spm_file = fullfile(spec_root, sprintf('SPM_indiv_%s.mat', hb_label));
-assert(isfile(spm_file), 'Missing Q8 Procedure specification: %s', spm_file);
+assert(isfile(spm_file), 'Missing Q8 %s specification: %s', phase_display, spm_file);
 output_dir = fullfile(spec_root, 'figures');
 if ~isfolder(output_dir), mkdir(output_dir); end
 
@@ -46,9 +50,9 @@ set(fig, 'DefaultAxesColor', 'w', 'DefaultAxesXColor', 'k', ...
     'DefaultAxesYColor', 'k', 'DefaultTextColor', 'k');
 plot(hrf_time, SPM_nirs.xBF.bf(:,1), 'LineWidth', 1.8, 'Color', [0 0.35 0.7]);
 xlabel('Time after event onset (s)'); ylabel('HRF amplitude'); grid on;
-title(sprintf('Q8 Procedure canonical HRF (%s)', hb_label));
-exportgraphics(fig, fullfile(output_dir, sprintf('%s_%s_q8_procedure_canonical_hrf.png', ...
-    subject_label, hb_label)), 'Resolution', 220);
+title(sprintf('Q8 %s canonical HRF (%s)', phase_display, hb_label),'Color','k');
+exportgraphics(fig, fullfile(output_dir, sprintf('%s_%s_q8_%s_canonical_hrf.png', ...
+    subject_label, hb_label, phase_key)), 'Resolution', 220);
 close(fig);
 
 % 2. The task columns of X are the HRF-convolved regressors.  The constant
@@ -57,12 +61,12 @@ fig = figure('Visible', 'off', 'Color', 'w', 'Position', [100 100 1350 520]);
 set(fig, 'DefaultAxesColor', 'w', 'DefaultAxesXColor', 'k', ...
     'DefaultAxesYColor', 'k', 'DefaultTextColor', 'k');
 imagesc(X(:,task_columns)'); axis tight;
-colormap(fig, parula); colorbar;
+colormap(fig, parula); cb=colorbar; cb.Color='k';
 yticks(1:sum(task_columns)); yticklabels(regressor_names(task_columns));
 xlabel('Scan'); ylabel('HRF-convolved task regressor');
-title(sprintf('%s Q8 Procedure: HRF-convolved regressor heatmap (%s)', subject_label, hb_label));
-exportgraphics(fig, fullfile(output_dir, sprintf('%s_%s_q8_procedure_convolved_regressor_heatmap.png', ...
-    subject_label, hb_label)), 'Resolution', 220);
+title(sprintf('%s Q8 %s: HRF-convolved regressor heatmap (%s)', subject_label, phase_display, hb_label),'Color','k');
+exportgraphics(fig, fullfile(output_dir, sprintf('%s_%s_q8_%s_convolved_regressor_heatmap.png', ...
+    subject_label, hb_label, phase_key)), 'Resolution', 220);
 close(fig);
 
 % 3. Line-view equivalent of the task-regressor panel in the reference
@@ -73,22 +77,22 @@ set(fig, 'DefaultAxesColor', 'w', 'DefaultAxesXColor', 'k', ...
     'DefaultAxesYColor', 'k', 'DefaultTextColor', 'k');
 plot(time_sec, X(:,task_columns), 'LineWidth', 1.1); grid on;
 xlabel('Time (s)'); ylabel('Task regressor');
-title(sprintf('%s Q8 Procedure: two HRF-convolved task regressors (%s)', subject_label, hb_label));
+title(sprintf('%s Q8 %s: two HRF-convolved task regressors (%s)', subject_label, phase_display, hb_label),'Color','k');
 legend(regressor_names(task_columns), 'Location', 'eastoutside');
-line_png = fullfile(output_dir, sprintf('%s_%s_q8_procedure_convolved_regressor_timeseries.png', ...
-    subject_label, hb_label));
+line_png = fullfile(output_dir, sprintf('%s_%s_q8_%s_convolved_regressor_timeseries.png', ...
+    subject_label, hb_label, phase_key));
 exportgraphics(fig, line_png, 'Resolution', 220); close(fig);
 
 outputs = struct();
-outputs.hrf_png = fullfile(output_dir, sprintf('%s_%s_q8_procedure_canonical_hrf.png', subject_label, hb_label));
-outputs.heatmap_png = fullfile(output_dir, sprintf('%s_%s_q8_procedure_convolved_regressor_heatmap.png', subject_label, hb_label));
+outputs.hrf_png = fullfile(output_dir, sprintf('%s_%s_q8_%s_canonical_hrf.png', subject_label, hb_label, phase_key));
+outputs.heatmap_png = fullfile(output_dir, sprintf('%s_%s_q8_%s_convolved_regressor_heatmap.png', subject_label, hb_label, phase_key));
 outputs.timeseries_png = line_png;
 outputs.fit_png = "";
 
 % 4. Fit diagnostics are valid only after NIRS-SPM estimation has supplied
 % beta and the exact DCT high-pass filtered design/data used in estimation.
 if ~isfield(SPM_nirs.nirs, 'beta') || ~isfield(SPM_nirs.xX, 'xKXs')
-    warning('Q8 Procedure has not been estimated; exported HRF and heatmap only.');
+    warning('Q8 %s has not been estimated; exported HRF and heatmap only.', phase_display);
     return;
 end
 n_channels = size(SPM_nirs.nirs.beta, 2);
@@ -127,10 +131,10 @@ xlabel('Time (s)'); ylabel('Residual'); title('GLM residual (estimation space)')
 nexttile;
 plot(t, X(:,task_columns), 'LineWidth', 1.0); grid on;
 xlabel('Time (s)'); ylabel('Task regressor');
-title('Q8 Procedure HRF-convolved task regressors');
+title(sprintf('Q8 %s HRF-convolved task regressors', phase_display),'Color','k');
 legend(regressor_names(task_columns), 'Location', 'eastoutside');
-fit_png = fullfile(output_dir, sprintf('%s_channel%02d_%s_q8_procedure_fit.png', ...
-    subject_label, channel_id, hb_label));
+fit_png = fullfile(output_dir, sprintf('%s_channel%02d_%s_q8_%s_fit.png', ...
+    subject_label, channel_id, hb_label, phase_key));
 exportgraphics(fig, fit_png, 'Resolution', 220); close(fig);
 outputs.fit_png = fit_png;
 end

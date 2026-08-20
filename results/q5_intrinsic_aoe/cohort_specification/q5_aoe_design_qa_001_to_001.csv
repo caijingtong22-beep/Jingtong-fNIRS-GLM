@@ -1,0 +1,3 @@
+subject_id,hemoglobin,rank,max_abs_correlation,max_vif,qa_pass
+subject001,HbO,5,0.0442715250878647,1.00595985343752,1
+subject001,HbR,5,0.0442715250878647,1.00595985343752,1

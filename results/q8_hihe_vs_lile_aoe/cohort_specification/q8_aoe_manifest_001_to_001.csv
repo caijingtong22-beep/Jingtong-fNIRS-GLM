@@ -1,0 +1,2 @@
+subject_id,subject_num,selection_policy,nirs_data_file
+subject001,1,first_complete_cycle,C:\aliceproject\GLM\first_level\nirs_spm_inputs_v2_fulltimeline_trial1\subject001\subject001_nirs_data.mat

@@ -1,0 +1,2 @@
+contrast_name,description,implemented_vector
+Q8_HIHE_minus_LILE_DOM,HIHEDOM - LILEDOM,"[-1, +1, 0], located by regressor name; implemented order [LILEDOM, HIHEDOM, constant]"

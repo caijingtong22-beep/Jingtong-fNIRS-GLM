@@ -1,0 +1,4 @@
+column_index,regressor,is_constant
+1,Sn(1) LILEDOM*bf(1),0
+2,Sn(1) HIHEDOM*bf(1),0
+3,Sn(1) constant,1
