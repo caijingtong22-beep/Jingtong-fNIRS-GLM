@@ -1,0 +1,929 @@
+subject_id,hemoglobin,roi,laterality,GroupCount,roi_contrast_beta
+subject001,HbO,DL PFC,Left,7,-8.26757580521504
+subject001,HbO,DL PFC,Right,7,-1.82640119066644
+subject001,HbO,Lateral Frontopolar PFC,Left,4,1.6784189285259
+subject001,HbO,Lateral Frontopolar PFC,Right,4,10.0129908909388
+subject001,HbO,M1,Left,1,-7.84286738590859
+subject001,HbO,M1,Right,1,54.0403153979582
+subject001,HbO,Medial Frontopolar PFC,Left,1,-5.3518783733659
+subject001,HbO,Medial Frontopolar PFC,Midline,1,-5.12025266326326
+subject001,HbO,Medial Frontopolar PFC,Right,1,35.3509818359895
+subject001,HbO,Medial PFC,Midline,2,-19.8122258982926
+subject001,HbO,PMC,Left,4,-19.5618629096964
+subject001,HbO,PMC,Right,4,-1.58837120301794
+subject001,HbO,SMA,Left,1,-10.9365794827086
+subject001,HbO,SMA,Right,1,-7.47049614948556
+subject001,HbO,VL PFC,Left,3,-9.80708256432554
+subject001,HbO,VL PFC,Right,3,-8.4007353353603
+subject001,HbR,DL PFC,Left,7,11.8774151925993
+subject001,HbR,DL PFC,Right,7,-2.05679455252513
+subject001,HbR,Lateral Frontopolar PFC,Left,4,17.8232417985962
+subject001,HbR,Lateral Frontopolar PFC,Right,4,-3.65406867990087
+subject001,HbR,M1,Left,1,4.98066470143225
+subject001,HbR,M1,Right,1,-27.8570196645395
+subject001,HbR,Medial Frontopolar PFC,Left,1,7.01826145669286
+subject001,HbR,Medial Frontopolar PFC,Midline,1,4.70269272809009
+subject001,HbR,Medial Frontopolar PFC,Right,1,54.5588893670686
+subject001,HbR,Medial PFC,Midline,2,10.9527241216858
+subject001,HbR,PMC,Left,4,33.1834690508475
+subject001,HbR,PMC,Right,4,5.36487136361239
+subject001,HbR,SMA,Left,1,8.87989682960644
+subject001,HbR,SMA,Right,1,5.35954594559075
+subject001,HbR,VL PFC,Left,3,-12.1471516821993
+subject001,HbR,VL PFC,Right,3,4.38761672019583
+subject002,HbO,DL PFC,Left,7,1.65888774688406
+subject002,HbO,DL PFC,Right,7,1.75978332028413
+subject002,HbO,Lateral Frontopolar PFC,Left,4,2.00317352158596
+subject002,HbO,Lateral Frontopolar PFC,Right,4,-1.54435381508655
+subject002,HbO,M1,Left,1,1.10401522849378
+subject002,HbO,M1,Right,1,7.1960868044331
+subject002,HbO,Medial Frontopolar PFC,Left,1,1.07588140301214
+subject002,HbO,Medial Frontopolar PFC,Midline,1,0.846632838059126
+subject002,HbO,Medial Frontopolar PFC,Right,1,-0.802716981278888
+subject002,HbO,Medial PFC,Midline,2,2.69489785609489
+subject002,HbO,PMC,Left,4,0.295417704959812
+subject002,HbO,PMC,Right,4,-2.10550439844134
+subject002,HbO,SMA,Left,1,5.15974566941976
+subject002,HbO,SMA,Right,1,5.66383324803224
+subject002,HbO,VL PFC,Left,3,2.00280845561372
+subject002,HbO,VL PFC,Right,3,-5.85611727611373
+subject002,HbR,DL PFC,Left,7,1.75707685599487
+subject002,HbR,DL PFC,Right,7,2.56572231155591
+subject002,HbR,Lateral Frontopolar PFC,Left,4,2.08868133464233
+subject002,HbR,Lateral Frontopolar PFC,Right,4,-3.31997122575092
+subject002,HbR,M1,Left,1,-4.19119102969528
+subject002,HbR,M1,Right,1,3.78331716412548
+subject002,HbR,Medial Frontopolar PFC,Left,1,1.29525559144332
+subject002,HbR,Medial Frontopolar PFC,Midline,1,2.78883473858603
+subject002,HbR,Medial Frontopolar PFC,Right,1,-5.45768913866622
+subject002,HbR,Medial PFC,Midline,2,0.553033916947988
+subject002,HbR,PMC,Left,4,2.13716080969685
+subject002,HbR,PMC,Right,4,1.01997665970385
+subject002,HbR,SMA,Left,1,-1.34937504254262
+subject002,HbR,SMA,Right,1,5.49157626770585
+subject002,HbR,VL PFC,Left,3,3.26670359673973
+subject002,HbR,VL PFC,Right,3,-0.459073754064607
+subject004,HbO,DL PFC,Left,7,0.223610811548051
+subject004,HbO,DL PFC,Right,7,-1.21660888240918
+subject004,HbO,Lateral Frontopolar PFC,Left,4,-0.334922755983201
+subject004,HbO,Lateral Frontopolar PFC,Right,4,1.81752911384879
+subject004,HbO,M1,Left,1,-0.403514726737461
+subject004,HbO,M1,Right,1,-1.9722402060907
+subject004,HbO,Medial Frontopolar PFC,Left,1,1.35633167485684
+subject004,HbO,Medial Frontopolar PFC,Midline,1,1.20013756849034
+subject004,HbO,Medial Frontopolar PFC,Right,1,0.144658795534989
+subject004,HbO,Medial PFC,Midline,2,0.146296727033333
+subject004,HbO,PMC,Left,4,-0.199094090468805
+subject004,HbO,PMC,Right,4,0.645101845906931
+subject004,HbO,SMA,Left,1,0.338083682217349
+subject004,HbO,SMA,Right,1,-0.989215978656495
+subject004,HbO,VL PFC,Left,3,-0.550854726529253
+subject004,HbO,VL PFC,Right,3,0.151182539328198
+subject004,HbR,DL PFC,Left,7,0.859853479510383
+subject004,HbR,DL PFC,Right,7,1.97966606973093
+subject004,HbR,Lateral Frontopolar PFC,Left,4,0.317061256206141
+subject004,HbR,Lateral Frontopolar PFC,Right,4,2.0824339918039
+subject004,HbR,M1,Left,1,-0.0988232228615275
+subject004,HbR,M1,Right,1,1.27492983339492
+subject004,HbR,Medial Frontopolar PFC,Left,1,-1.6868628137447
+subject004,HbR,Medial Frontopolar PFC,Midline,1,1.52837257879822
+subject004,HbR,Medial Frontopolar PFC,Right,1,-0.47743554288646
+subject004,HbR,Medial PFC,Midline,2,0.00104777238456011
+subject004,HbR,PMC,Left,4,0.797379879168414
+subject004,HbR,PMC,Right,4,1.30801996292971
+subject004,HbR,SMA,Left,1,7.69050163370326
+subject004,HbR,SMA,Right,1,0.126033875005274
+subject004,HbR,VL PFC,Left,3,0.105466451846717
+subject004,HbR,VL PFC,Right,3,1.98773977839981
+subject005,HbO,DL PFC,Left,7,0.765256535076562
+subject005,HbO,DL PFC,Right,7,0.73630776502637
+subject005,HbO,Lateral Frontopolar PFC,Left,4,-0.375788250776022
+subject005,HbO,Lateral Frontopolar PFC,Right,4,-0.702684601492271
+subject005,HbO,M1,Left,1,0.138578228019065
+subject005,HbO,M1,Right,1,1.86258098059525
+subject005,HbO,Medial Frontopolar PFC,Left,1,-6.94640606078123
+subject005,HbO,Medial Frontopolar PFC,Midline,1,-3.68137623112007
+subject005,HbO,Medial Frontopolar PFC,Right,1,-2.03531018720757
+subject005,HbO,Medial PFC,Midline,2,1.1032205269155
+subject005,HbO,PMC,Left,4,0.689456363708124
+subject005,HbO,PMC,Right,4,0.539157884921348
+subject005,HbO,SMA,Left,1,-1.13864834444802
+subject005,HbO,SMA,Right,1,2.00573462825106
+subject005,HbO,VL PFC,Left,3,1.18464559367574
+subject005,HbO,VL PFC,Right,3,2.60073768652174
+subject005,HbR,DL PFC,Left,7,0.7568472056602
+subject005,HbR,DL PFC,Right,7,0.322569060486139
+subject005,HbR,Lateral Frontopolar PFC,Left,4,1.36199869000832
+subject005,HbR,Lateral Frontopolar PFC,Right,4,1.49786644218707
+subject005,HbR,M1,Left,1,2.46070554755686
+subject005,HbR,M1,Right,1,-3.7466926247949
+subject005,HbR,Medial Frontopolar PFC,Left,1,-8.24210344633761
+subject005,HbR,Medial Frontopolar PFC,Midline,1,-2.54978582400287
+subject005,HbR,Medial Frontopolar PFC,Right,1,2.18620250711804
+subject005,HbR,Medial PFC,Midline,2,1.04209576170916
+subject005,HbR,PMC,Left,4,0.2392370948873
+subject005,HbR,PMC,Right,4,-0.189714751309547
+subject005,HbR,SMA,Left,1,3.07279274840298
+subject005,HbR,SMA,Right,1,0.243958420217607
+subject005,HbR,VL PFC,Left,3,-2.39567464784698
+subject005,HbR,VL PFC,Right,3,-0.761313794092909
+subject006,HbO,DL PFC,Left,7,-0.641017758572115
+subject006,HbO,DL PFC,Right,7,-1.99986515735182
+subject006,HbO,Lateral Frontopolar PFC,Left,4,-1.794290253696
+subject006,HbO,Lateral Frontopolar PFC,Right,4,-1.47998609821879
+subject006,HbO,M1,Left,1,1.05085947735771
+subject006,HbO,M1,Right,1,-2.10960768660257
+subject006,HbO,Medial Frontopolar PFC,Left,1,-2.50084885838035
+subject006,HbO,Medial Frontopolar PFC,Midline,1,-0.182694557803464
+subject006,HbO,Medial Frontopolar PFC,Right,1,1.32738033378842
+subject006,HbO,Medial PFC,Midline,2,-2.10933869487799
+subject006,HbO,PMC,Left,4,-1.76537729423073
+subject006,HbO,PMC,Right,4,-0.277289423642837
+subject006,HbO,SMA,Left,1,-1.75598250721569
+subject006,HbO,SMA,Right,1,-0.365383933514111
+subject006,HbO,VL PFC,Left,3,-2.24030299113992
+subject006,HbO,VL PFC,Right,3,-3.30898517114851
+subject006,HbR,DL PFC,Left,7,-0.96696622336784
+subject006,HbR,DL PFC,Right,7,0.593041740455747
+subject006,HbR,Lateral Frontopolar PFC,Left,4,-0.837770775828663
+subject006,HbR,Lateral Frontopolar PFC,Right,4,-1.18205312481783
+subject006,HbR,M1,Left,1,-1.3952284659909
+subject006,HbR,M1,Right,1,-2.08445203770007
+subject006,HbR,Medial Frontopolar PFC,Left,1,-2.20199795886184
+subject006,HbR,Medial Frontopolar PFC,Midline,1,-1.43167666459595
+subject006,HbR,Medial Frontopolar PFC,Right,1,0.621229640163858
+subject006,HbR,Medial PFC,Midline,2,0.917299700070505
+subject006,HbR,PMC,Left,4,0.628251684176747
+subject006,HbR,PMC,Right,4,-0.215561906101977
+subject006,HbR,SMA,Left,1,0.815755544952666
+subject006,HbR,SMA,Right,1,1.12037171868355
+subject006,HbR,VL PFC,Left,3,-1.32777946899519
+subject006,HbR,VL PFC,Right,3,0.383727549997514
+subject007,HbO,DL PFC,Left,7,1.30390059671748
+subject007,HbO,DL PFC,Right,7,-1.35670667554427
+subject007,HbO,Lateral Frontopolar PFC,Left,4,-1.00112485965056
+subject007,HbO,Lateral Frontopolar PFC,Right,4,-1.33802879651695
+subject007,HbO,M1,Left,1,-3.12846339629617
+subject007,HbO,M1,Right,1,-3.10129700384295
+subject007,HbO,Medial Frontopolar PFC,Left,1,1.76937253020867
+subject007,HbO,Medial Frontopolar PFC,Midline,1,-1.419291968409
+subject007,HbO,Medial Frontopolar PFC,Right,1,-2.09548830812254
+subject007,HbO,Medial PFC,Midline,2,4.41200575668775
+subject007,HbO,PMC,Left,4,-0.744317513791099
+subject007,HbO,PMC,Right,4,-0.990432912686112
+subject007,HbO,SMA,Left,1,-1.18733978045701
+subject007,HbO,SMA,Right,1,1.04013689992607
+subject007,HbO,VL PFC,Left,3,-1.75202881136252
+subject007,HbO,VL PFC,Right,3,0.858765960012642
+subject007,HbR,DL PFC,Left,7,0.0863586954534112
+subject007,HbR,DL PFC,Right,7,0.662873721383591
+subject007,HbR,Lateral Frontopolar PFC,Left,4,-1.49225412622959
+subject007,HbR,Lateral Frontopolar PFC,Right,4,-1.61168678462504
+subject007,HbR,M1,Left,1,-1.74148701426501
+subject007,HbR,M1,Right,1,-1.00610096969144
+subject007,HbR,Medial Frontopolar PFC,Left,1,0.396545058246405
+subject007,HbR,Medial Frontopolar PFC,Midline,1,-1.57441410607846
+subject007,HbR,Medial Frontopolar PFC,Right,1,0.487820466783743
+subject007,HbR,Medial PFC,Midline,2,2.23281636387209
+subject007,HbR,PMC,Left,4,0.038235837728259
+subject007,HbR,PMC,Right,4,0.395129884759709
+subject007,HbR,SMA,Left,1,-1.34399494613023
+subject007,HbR,SMA,Right,1,-2.6058731005396
+subject007,HbR,VL PFC,Left,3,2.02642538590862
+subject007,HbR,VL PFC,Right,3,-0.751741546474507
+subject008,HbO,DL PFC,Left,7,2.93744062954401
+subject008,HbO,DL PFC,Right,7,0.289531402704565
+subject008,HbO,Lateral Frontopolar PFC,Left,4,1.03090063656008
+subject008,HbO,Lateral Frontopolar PFC,Right,4,-0.821070793103368
+subject008,HbO,M1,Left,1,-0.725777970299794
+subject008,HbO,M1,Right,1,-0.225551108692652
+subject008,HbO,Medial Frontopolar PFC,Left,1,3.18083153883416
+subject008,HbO,Medial Frontopolar PFC,Midline,1,0.253472639575517
+subject008,HbO,Medial Frontopolar PFC,Right,1,2.25302689849839
+subject008,HbO,Medial PFC,Midline,2,-2.94280421559173
+subject008,HbO,PMC,Left,4,0.759584580591734
+subject008,HbO,PMC,Right,4,0.379935923470911
+subject008,HbO,SMA,Left,1,-6.39476834876495
+subject008,HbO,SMA,Right,1,-1.12166157170539
+subject008,HbO,VL PFC,Left,3,5.12585515098109
+subject008,HbO,VL PFC,Right,3,2.83234621713966
+subject008,HbR,DL PFC,Left,7,1.43505489193803
+subject008,HbR,DL PFC,Right,7,1.37732017868685
+subject008,HbR,Lateral Frontopolar PFC,Left,4,-1.27491559123218
+subject008,HbR,Lateral Frontopolar PFC,Right,4,-0.94557000068649
+subject008,HbR,M1,Left,1,-3.14892082461112
+subject008,HbR,M1,Right,1,0.264482529559548
+subject008,HbR,Medial Frontopolar PFC,Left,1,-1.40999390526163
+subject008,HbR,Medial Frontopolar PFC,Midline,1,-0.185438888625193
+subject008,HbR,Medial Frontopolar PFC,Right,1,-0.103661773454794
+subject008,HbR,Medial PFC,Midline,2,-4.08206253483407
+subject008,HbR,PMC,Left,4,-0.438948256975704
+subject008,HbR,PMC,Right,4,-0.0767390175318697
+subject008,HbR,SMA,Left,1,-0.150018005061655
+subject008,HbR,SMA,Right,1,7.34051063927262
+subject008,HbR,VL PFC,Left,3,-2.24036934236506
+subject008,HbR,VL PFC,Right,3,-0.484326041679757
+subject009,HbO,DL PFC,Left,7,-1.7283133232364
+subject009,HbO,DL PFC,Right,7,-1.472749560812
+subject009,HbO,Lateral Frontopolar PFC,Left,4,-0.934309215799565
+subject009,HbO,Lateral Frontopolar PFC,Right,4,-0.899213969017824
+subject009,HbO,M1,Left,1,3.95193184282097
+subject009,HbO,M1,Right,1,-1.99452698764603
+subject009,HbO,Medial Frontopolar PFC,Left,1,3.54842007281156
+subject009,HbO,Medial Frontopolar PFC,Midline,1,-0.614548493081001
+subject009,HbO,Medial Frontopolar PFC,Right,1,-2.79817007908998
+subject009,HbO,Medial PFC,Midline,2,-5.03692787282738
+subject009,HbO,PMC,Left,4,-0.623998744253794
+subject009,HbO,PMC,Right,4,-0.70544542140681
+subject009,HbO,SMA,Left,1,-3.5321551019629
+subject009,HbO,SMA,Right,1,3.0574890420823
+subject009,HbO,VL PFC,Left,3,-3.90197183180622
+subject009,HbO,VL PFC,Right,3,0.983231915425037
+subject009,HbR,DL PFC,Left,7,0.397925417437156
+subject009,HbR,DL PFC,Right,7,-1.12440905411022
+subject009,HbR,Lateral Frontopolar PFC,Left,4,1.10008330501052
+subject009,HbR,Lateral Frontopolar PFC,Right,4,1.23163241198656
+subject009,HbR,M1,Left,1,-1.22372744225102
+subject009,HbR,M1,Right,1,0.714174605175501
+subject009,HbR,Medial Frontopolar PFC,Left,1,-0.22909804155211
+subject009,HbR,Medial Frontopolar PFC,Midline,1,0.644127245631278
+subject009,HbR,Medial Frontopolar PFC,Right,1,-0.990551620324236
+subject009,HbR,Medial PFC,Midline,2,4.69594192500101
+subject009,HbR,PMC,Left,4,-0.69984016882288
+subject009,HbR,PMC,Right,4,-0.398507995345886
+subject009,HbR,SMA,Left,1,-0.632570592689242
+subject009,HbR,SMA,Right,1,-2.63512602194249
+subject009,HbR,VL PFC,Left,3,0.823998652098886
+subject009,HbR,VL PFC,Right,3,0.668090823868402
+subject010,HbO,DL PFC,Left,7,0.62984447474725
+subject010,HbO,DL PFC,Right,7,2.82708273826035
+subject010,HbO,Lateral Frontopolar PFC,Left,4,0.211285558239394
+subject010,HbO,Lateral Frontopolar PFC,Right,4,0.938253011087956
+subject010,HbO,M1,Left,1,0.748704442809297
+subject010,HbO,M1,Right,1,-2.30113074130711
+subject010,HbO,Medial Frontopolar PFC,Left,1,-7.55217749245326
+subject010,HbO,Medial Frontopolar PFC,Midline,1,0.891510608985326
+subject010,HbO,Medial Frontopolar PFC,Right,1,-1.28207450920897
+subject010,HbO,Medial PFC,Midline,2,-2.16232157788453
+subject010,HbO,PMC,Left,4,1.17618749714428
+subject010,HbO,PMC,Right,4,2.59350471720381
+subject010,HbO,SMA,Left,1,4.08117039219373
+subject010,HbO,SMA,Right,1,2.52506292730683
+subject010,HbO,VL PFC,Left,3,-1.13405414269446
+subject010,HbO,VL PFC,Right,3,1.72610514058086
+subject010,HbR,DL PFC,Left,7,-0.156130274531039
+subject010,HbR,DL PFC,Right,7,1.95669458812791
+subject010,HbR,Lateral Frontopolar PFC,Left,4,-0.431776285162169
+subject010,HbR,Lateral Frontopolar PFC,Right,4,-0.417325283123312
+subject010,HbR,M1,Left,1,-0.478320539918147
+subject010,HbR,M1,Right,1,-1.3999404188556
+subject010,HbR,Medial Frontopolar PFC,Left,1,2.56641080105985
+subject010,HbR,Medial Frontopolar PFC,Midline,1,0.948626516187154
+subject010,HbR,Medial Frontopolar PFC,Right,1,-5.32818707278227
+subject010,HbR,Medial PFC,Midline,2,-0.410913473869208
+subject010,HbR,PMC,Left,4,-1.1083234069314
+subject010,HbR,PMC,Right,4,-0.971272104790333
+subject010,HbR,SMA,Left,1,1.14575879537671
+subject010,HbR,SMA,Right,1,-0.149867360465486
+subject010,HbR,VL PFC,Left,3,0.993994758872093
+subject010,HbR,VL PFC,Right,3,1.9427516082495
+subject011,HbO,DL PFC,Left,7,1.28678918883826
+subject011,HbO,DL PFC,Right,7,2.52025876368775
+subject011,HbO,Lateral Frontopolar PFC,Left,4,2.48842264312196
+subject011,HbO,Lateral Frontopolar PFC,Right,4,5.01468347898679
+subject011,HbO,M1,Left,1,4.73795526625293
+subject011,HbO,M1,Right,1,-0.8628680107625
+subject011,HbO,Medial Frontopolar PFC,Left,1,3.06675456362599
+subject011,HbO,Medial Frontopolar PFC,Midline,1,5.35032536557626
+subject011,HbO,Medial Frontopolar PFC,Right,1,5.30298824318876
+subject011,HbO,Medial PFC,Midline,2,4.73238408184086
+subject011,HbO,PMC,Left,4,0.959958280285632
+subject011,HbO,PMC,Right,4,3.27134729783045
+subject011,HbO,SMA,Left,1,2.05360170545981
+subject011,HbO,SMA,Right,1,8.74490050421938
+subject011,HbO,VL PFC,Left,3,-0.445987265125704
+subject011,HbO,VL PFC,Right,3,-1.96969629617883
+subject011,HbR,DL PFC,Left,7,-2.21359915511766
+subject011,HbR,DL PFC,Right,7,-1.37831255532644
+subject011,HbR,Lateral Frontopolar PFC,Left,4,-2.49050104886959
+subject011,HbR,Lateral Frontopolar PFC,Right,4,-3.88623138253574
+subject011,HbR,M1,Left,1,2.43670684971171
+subject011,HbR,M1,Right,1,-5.26905100390653
+subject011,HbR,Medial Frontopolar PFC,Left,1,2.44222827410882
+subject011,HbR,Medial Frontopolar PFC,Midline,1,-1.29839495737343
+subject011,HbR,Medial Frontopolar PFC,Right,1,4.82161331345928
+subject011,HbR,Medial PFC,Midline,2,-4.32737257536042
+subject011,HbR,PMC,Left,4,-1.15395990633008
+subject011,HbR,PMC,Right,4,1.292520471325
+subject011,HbR,SMA,Left,1,3.60309130683945
+subject011,HbR,SMA,Right,1,3.06045986859143
+subject011,HbR,VL PFC,Left,3,-4.36246575765186
+subject011,HbR,VL PFC,Right,3,-1.30796596186515
+subject012,HbO,DL PFC,Left,7,1.8321255045376
+subject012,HbO,DL PFC,Right,7,1.50209021951024
+subject012,HbO,Lateral Frontopolar PFC,Left,4,-0.0260183044553495
+subject012,HbO,Lateral Frontopolar PFC,Right,4,-1.35445408676843
+subject012,HbO,M1,Left,1,-1.2443585178155
+subject012,HbO,M1,Right,1,2.84338509355465
+subject012,HbO,Medial Frontopolar PFC,Left,1,4.75843474894968
+subject012,HbO,Medial Frontopolar PFC,Midline,1,0.431410440603687
+subject012,HbO,Medial Frontopolar PFC,Right,1,0.817929018788604
+subject012,HbO,Medial PFC,Midline,2,0.0225711552597965
+subject012,HbO,PMC,Left,4,0.611247810795355
+subject012,HbO,PMC,Right,4,0.936381879860506
+subject012,HbO,SMA,Left,1,1.53058283594177
+subject012,HbO,SMA,Right,1,7.7545545266388
+subject012,HbO,VL PFC,Left,3,-0.374582421923585
+subject012,HbO,VL PFC,Right,3,1.29316125922306
+subject012,HbR,DL PFC,Left,7,0.967296676341554
+subject012,HbR,DL PFC,Right,7,0.873647871890334
+subject012,HbR,Lateral Frontopolar PFC,Left,4,0.00827304279344926
+subject012,HbR,Lateral Frontopolar PFC,Right,4,1.45038988179105
+subject012,HbR,M1,Left,1,-2.89002676229862
+subject012,HbR,M1,Right,1,0.964276765824305
+subject012,HbR,Medial Frontopolar PFC,Left,1,1.16732313432498
+subject012,HbR,Medial Frontopolar PFC,Midline,1,-0.0829047487356557
+subject012,HbR,Medial Frontopolar PFC,Right,1,-2.82764916696286
+subject012,HbR,Medial PFC,Midline,2,1.37305702391938
+subject012,HbR,PMC,Left,4,0.89271442435804
+subject012,HbR,PMC,Right,4,-0.852448918982138
+subject012,HbR,SMA,Left,1,-1.19148649799044
+subject012,HbR,SMA,Right,1,-3.53955798015821
+subject012,HbR,VL PFC,Left,3,2.39748680630349
+subject012,HbR,VL PFC,Right,3,0.302524163674327
+subject013,HbO,DL PFC,Left,7,-3.09031819294867
+subject013,HbO,DL PFC,Right,7,0.018835184889506
+subject013,HbO,Lateral Frontopolar PFC,Left,4,0.109224397014477
+subject013,HbO,Lateral Frontopolar PFC,Right,4,-1.00933268673106
+subject013,HbO,M1,Left,1,3.66546970652253
+subject013,HbO,M1,Right,1,1.40752439575462
+subject013,HbO,Medial Frontopolar PFC,Left,1,-1.19677951137949
+subject013,HbO,Medial Frontopolar PFC,Midline,1,2.06151799518984
+subject013,HbO,Medial Frontopolar PFC,Right,1,1.08816393426273
+subject013,HbO,Medial PFC,Midline,2,-0.23878332119515
+subject013,HbO,PMC,Left,4,-0.14294810546114
+subject013,HbO,PMC,Right,4,-2.22605416879451
+subject013,HbO,SMA,Left,1,-1.65958786894713
+subject013,HbO,SMA,Right,1,1.12530028265321
+subject013,HbO,VL PFC,Left,3,-2.9762749391169
+subject013,HbO,VL PFC,Right,3,-1.85059916396616
+subject013,HbR,DL PFC,Left,7,0.431507691638548
+subject013,HbR,DL PFC,Right,7,0.319752714040262
+subject013,HbR,Lateral Frontopolar PFC,Left,4,-0.541957201976344
+subject013,HbR,Lateral Frontopolar PFC,Right,4,0.19386884457623
+subject013,HbR,M1,Left,1,2.05675092533255
+subject013,HbR,M1,Right,1,1.63840549768875
+subject013,HbR,Medial Frontopolar PFC,Left,1,0.152617594027883
+subject013,HbR,Medial Frontopolar PFC,Midline,1,0.649647142073246
+subject013,HbR,Medial Frontopolar PFC,Right,1,0.648345359772066
+subject013,HbR,Medial PFC,Midline,2,1.044616256184
+subject013,HbR,PMC,Left,4,2.05155491645448
+subject013,HbR,PMC,Right,4,-0.861383758653378
+subject013,HbR,SMA,Left,1,0.0424785483776334
+subject013,HbR,SMA,Right,1,5.58241815065218
+subject013,HbR,VL PFC,Left,3,-1.96342762902279
+subject013,HbR,VL PFC,Right,3,0.893354927907473
+subject014,HbO,DL PFC,Left,7,2.1860192022476
+subject014,HbO,DL PFC,Right,7,-1.23885260143943
+subject014,HbO,Lateral Frontopolar PFC,Left,4,-2.94398938483681
+subject014,HbO,Lateral Frontopolar PFC,Right,4,-0.788811956936613
+subject014,HbO,M1,Left,1,-1.52989541000452
+subject014,HbO,M1,Right,1,8.08332640716468
+subject014,HbO,Medial Frontopolar PFC,Left,1,-3.38091260094484
+subject014,HbO,Medial Frontopolar PFC,Midline,1,-0.809300802944959
+subject014,HbO,Medial Frontopolar PFC,Right,1,-2.30095610229073
+subject014,HbO,Medial PFC,Midline,2,-3.6318369994576
+subject014,HbO,PMC,Left,4,9.00514250420399
+subject014,HbO,PMC,Right,4,-3.09332900340977
+subject014,HbO,SMA,Left,1,-2.49064740966355
+subject014,HbO,SMA,Right,1,-3.06219906463396
+subject014,HbO,VL PFC,Left,3,5.00037674277275
+subject014,HbO,VL PFC,Right,3,4.36684728563241
+subject014,HbR,DL PFC,Left,7,0.647961173579954
+subject014,HbR,DL PFC,Right,7,0.847280375265691
+subject014,HbR,Lateral Frontopolar PFC,Left,4,-1.37620344063613
+subject014,HbR,Lateral Frontopolar PFC,Right,4,-0.13400756651851
+subject014,HbR,M1,Left,1,2.6064213215267
+subject014,HbR,M1,Right,1,-1.07482117066414
+subject014,HbR,Medial Frontopolar PFC,Left,1,0.409611335950674
+subject014,HbR,Medial Frontopolar PFC,Midline,1,0.552011802418426
+subject014,HbR,Medial Frontopolar PFC,Right,1,3.06543729450768
+subject014,HbR,Medial PFC,Midline,2,4.55627616397369
+subject014,HbR,PMC,Left,4,-1.43925736487419
+subject014,HbR,PMC,Right,4,4.1115372070549
+subject014,HbR,SMA,Left,1,3.74626494501515
+subject014,HbR,SMA,Right,1,4.99476846994557
+subject014,HbR,VL PFC,Left,3,-1.79963164804903
+subject014,HbR,VL PFC,Right,3,0.705602777221838
+subject015,HbO,DL PFC,Left,7,1.90712241531963
+subject015,HbO,DL PFC,Right,7,-0.506881099375856
+subject015,HbO,Lateral Frontopolar PFC,Left,4,0.849559622434457
+subject015,HbO,Lateral Frontopolar PFC,Right,4,0.446285031427938
+subject015,HbO,M1,Left,1,1.42978343753577
+subject015,HbO,M1,Right,1,2.58511019950183
+subject015,HbO,Medial Frontopolar PFC,Left,1,0.894942151778896
+subject015,HbO,Medial Frontopolar PFC,Midline,1,-0.14727511324498
+subject015,HbO,Medial Frontopolar PFC,Right,1,-0.186440762721626
+subject015,HbO,Medial PFC,Midline,2,1.07108807002073
+subject015,HbO,PMC,Left,4,2.67330137118177
+subject015,HbO,PMC,Right,4,-0.823050693385445
+subject015,HbO,SMA,Left,1,2.92578298757016
+subject015,HbO,SMA,Right,1,2.24310101088441
+subject015,HbO,VL PFC,Left,3,-0.765968856840607
+subject015,HbO,VL PFC,Right,3,2.03277435150037
+subject015,HbR,DL PFC,Left,7,-0.00286086061480669
+subject015,HbR,DL PFC,Right,7,-0.0603752508798286
+subject015,HbR,Lateral Frontopolar PFC,Left,4,-0.017721648153706
+subject015,HbR,Lateral Frontopolar PFC,Right,4,-0.755200134400812
+subject015,HbR,M1,Left,1,-0.701579138406777
+subject015,HbR,M1,Right,1,-0.138119468462056
+subject015,HbR,Medial Frontopolar PFC,Left,1,0.767853036200774
+subject015,HbR,Medial Frontopolar PFC,Midline,1,-1.08062445781102
+subject015,HbR,Medial Frontopolar PFC,Right,1,-2.46045699440586
+subject015,HbR,Medial PFC,Midline,2,1.06822061994028
+subject015,HbR,PMC,Left,4,-0.466525888390497
+subject015,HbR,PMC,Right,4,0.0037711374368411
+subject015,HbR,SMA,Left,1,-2.38473122467823
+subject015,HbR,SMA,Right,1,1.24429981827651
+subject015,HbR,VL PFC,Left,3,-0.534416689152399
+subject015,HbR,VL PFC,Right,3,0.42029001433829
+subject016,HbO,DL PFC,Left,7,0.245128663683868
+subject016,HbO,DL PFC,Right,7,-0.596128981087626
+subject016,HbO,Lateral Frontopolar PFC,Left,4,-0.950029792550168
+subject016,HbO,Lateral Frontopolar PFC,Right,4,1.60388693005637
+subject016,HbO,M1,Left,1,3.86120653420487
+subject016,HbO,M1,Right,1,0.381535408899961
+subject016,HbO,Medial Frontopolar PFC,Left,1,2.58719842623707
+subject016,HbO,Medial Frontopolar PFC,Midline,1,5.20507400724664
+subject016,HbO,Medial Frontopolar PFC,Right,1,4.00039859917867
+subject016,HbO,Medial PFC,Midline,2,-1.27054802859276
+subject016,HbO,PMC,Left,4,-3.81906821287716
+subject016,HbO,PMC,Right,4,1.00460954400871
+subject016,HbO,SMA,Left,1,-0.387225436159777
+subject016,HbO,SMA,Right,1,2.20732915024813
+subject016,HbO,VL PFC,Left,3,-3.11366105945879
+subject016,HbO,VL PFC,Right,3,1.19936430624118
+subject016,HbR,DL PFC,Left,7,-1.71830730409073
+subject016,HbR,DL PFC,Right,7,0.0840133453111941
+subject016,HbR,Lateral Frontopolar PFC,Left,4,-1.95800910460188
+subject016,HbR,Lateral Frontopolar PFC,Right,4,-0.368397837124534
+subject016,HbR,M1,Left,1,1.27688107168074
+subject016,HbR,M1,Right,1,-1.72700190382853
+subject016,HbR,Medial Frontopolar PFC,Left,1,-2.76836762177284
+subject016,HbR,Medial Frontopolar PFC,Midline,1,-2.96024303232888
+subject016,HbR,Medial Frontopolar PFC,Right,1,1.27654380643045
+subject016,HbR,Medial PFC,Midline,2,-0.632735274093665
+subject016,HbR,PMC,Left,4,0.952728942432787
+subject016,HbR,PMC,Right,4,-0.955591978997213
+subject016,HbR,SMA,Left,1,0.232383365179076
+subject016,HbR,SMA,Right,1,6.6072790205923
+subject016,HbR,VL PFC,Left,3,-2.94964247685623
+subject016,HbR,VL PFC,Right,3,-0.521168677027277
+subject017,HbO,DL PFC,Left,7,-0.77852691036871
+subject017,HbO,DL PFC,Right,7,-0.236587549630381
+subject017,HbO,Lateral Frontopolar PFC,Left,4,2.80421544712986
+subject017,HbO,Lateral Frontopolar PFC,Right,4,-0.441853799167295
+subject017,HbO,M1,Left,1,1.03170937621433
+subject017,HbO,M1,Right,1,0.815623547658714
+subject017,HbO,Medial Frontopolar PFC,Left,1,-12.1589762831654
+subject017,HbO,Medial Frontopolar PFC,Midline,1,1.05676243055973
+subject017,HbO,Medial Frontopolar PFC,Right,1,-0.231514479822193
+subject017,HbO,Medial PFC,Midline,2,0.000334684813185326
+subject017,HbO,PMC,Left,4,-0.436880029589782
+subject017,HbO,PMC,Right,4,0.116440669906413
+subject017,HbO,SMA,Left,1,-2.28754038456792
+subject017,HbO,SMA,Right,1,6.39974497116615
+subject017,HbO,VL PFC,Left,3,-1.09225207376262
+subject017,HbO,VL PFC,Right,3,-4.00958865690285
+subject017,HbR,DL PFC,Left,7,1.55754519649343
+subject017,HbR,DL PFC,Right,7,2.73031058784516
+subject017,HbR,Lateral Frontopolar PFC,Left,4,2.07037662278836
+subject017,HbR,Lateral Frontopolar PFC,Right,4,-0.715983596847296
+subject017,HbR,M1,Left,1,0.113787426966744
+subject017,HbR,M1,Right,1,0.753526964734545
+subject017,HbR,Medial Frontopolar PFC,Left,1,-4.94240382220494
+subject017,HbR,Medial Frontopolar PFC,Midline,1,1.99588226992064
+subject017,HbR,Medial Frontopolar PFC,Right,1,-0.212312082550165
+subject017,HbR,Medial PFC,Midline,2,3.51477398027878
+subject017,HbR,PMC,Left,4,2.52091326328351
+subject017,HbR,PMC,Right,4,2.14457034856703
+subject017,HbR,SMA,Left,1,2.21721812579074
+subject017,HbR,SMA,Right,1,0.317909819295939
+subject017,HbR,VL PFC,Left,3,2.47573250985291
+subject017,HbR,VL PFC,Right,3,0.535224626512847
+subject018,HbO,DL PFC,Left,7,2.1346393525586
+subject018,HbO,DL PFC,Right,7,-1.38651715710198
+subject018,HbO,Lateral Frontopolar PFC,Left,4,0.914578482354742
+subject018,HbO,Lateral Frontopolar PFC,Right,4,1.68366573203874
+subject018,HbO,M1,Left,1,4.78518054065174
+subject018,HbO,M1,Right,1,1.2571331456563
+subject018,HbO,Medial Frontopolar PFC,Left,1,-2.04924301862957
+subject018,HbO,Medial Frontopolar PFC,Midline,1,1.18149000011014
+subject018,HbO,Medial Frontopolar PFC,Right,1,2.36011698295112
+subject018,HbO,Medial PFC,Midline,2,-4.80123504221205
+subject018,HbO,PMC,Left,4,0.512009030962269
+subject018,HbO,PMC,Right,4,0.68297526423578
+subject018,HbO,SMA,Left,1,1.39014774239406
+subject018,HbO,SMA,Right,1,2.64785813792288
+subject018,HbO,VL PFC,Left,3,0.626066934542294
+subject018,HbO,VL PFC,Right,3,-1.04560168324986
+subject018,HbR,DL PFC,Left,7,-1.25929132100441
+subject018,HbR,DL PFC,Right,7,-0.324011463224279
+subject018,HbR,Lateral Frontopolar PFC,Left,4,-1.90576547954845
+subject018,HbR,Lateral Frontopolar PFC,Right,4,-1.43828655906876
+subject018,HbR,M1,Left,1,-2.89973627267623
+subject018,HbR,M1,Right,1,-1.20688745288527
+subject018,HbR,Medial Frontopolar PFC,Left,1,-0.286550780883414
+subject018,HbR,Medial Frontopolar PFC,Midline,1,-1.50114415194591
+subject018,HbR,Medial Frontopolar PFC,Right,1,-2.60988327283174
+subject018,HbR,Medial PFC,Midline,2,2.16738097090652
+subject018,HbR,PMC,Left,4,-2.59837130769026
+subject018,HbR,PMC,Right,4,-2.03416233173278
+subject018,HbR,SMA,Left,1,-3.99713578815042
+subject018,HbR,SMA,Right,1,0.931831284000847
+subject018,HbR,VL PFC,Left,3,-1.2275213026418
+subject018,HbR,VL PFC,Right,3,-2.07370816493167
+subject019,HbO,DL PFC,Left,7,1.23955636219381
+subject019,HbO,DL PFC,Right,7,0.423957800594521
+subject019,HbO,Lateral Frontopolar PFC,Left,4,0.939039262834236
+subject019,HbO,Lateral Frontopolar PFC,Right,4,0.710679600458151
+subject019,HbO,M1,Left,1,0.115189158715763
+subject019,HbO,M1,Right,1,2.72358302319506
+subject019,HbO,Medial Frontopolar PFC,Left,1,-0.463037832753595
+subject019,HbO,Medial Frontopolar PFC,Midline,1,1.13737232668433
+subject019,HbO,Medial Frontopolar PFC,Right,1,-1.28416331764565
+subject019,HbO,Medial PFC,Midline,2,2.82962164647692
+subject019,HbO,PMC,Left,4,1.90963324070742
+subject019,HbO,PMC,Right,4,0.251945167673999
+subject019,HbO,SMA,Left,1,0.94093156152349
+subject019,HbO,SMA,Right,1,2.88404729371327
+subject019,HbO,VL PFC,Left,3,0.488362522168553
+subject019,HbO,VL PFC,Right,3,-9.36803888550507
+subject019,HbR,DL PFC,Left,7,0.625712688086715
+subject019,HbR,DL PFC,Right,7,0.482068480725485
+subject019,HbR,Lateral Frontopolar PFC,Left,4,0.129943278519807
+subject019,HbR,Lateral Frontopolar PFC,Right,4,0.420577932785396
+subject019,HbR,M1,Left,1,-0.494102864496191
+subject019,HbR,M1,Right,1,0.907862005099982
+subject019,HbR,Medial Frontopolar PFC,Left,1,0.146597291065281
+subject019,HbR,Medial Frontopolar PFC,Midline,1,0.843079217422348
+subject019,HbR,Medial Frontopolar PFC,Right,1,-0.542754325100742
+subject019,HbR,Medial PFC,Midline,2,0.547941003042341
+subject019,HbR,PMC,Left,4,0.608197400191867
+subject019,HbR,PMC,Right,4,0.0482349028801543
+subject019,HbR,SMA,Left,1,-0.235289554028163
+subject019,HbR,SMA,Right,1,-0.0181912567189888
+subject019,HbR,VL PFC,Left,3,0.346660394471998
+subject019,HbR,VL PFC,Right,3,2.72835137768562
+subject020,HbO,DL PFC,Left,7,1.85544655369313
+subject020,HbO,DL PFC,Right,7,-2.80327094143873
+subject020,HbO,Lateral Frontopolar PFC,Left,4,-2.60194322285316
+subject020,HbO,Lateral Frontopolar PFC,Right,4,-3.13374135454019
+subject020,HbO,M1,Left,1,-3.53173792960294
+subject020,HbO,M1,Right,1,-1.96331988662434
+subject020,HbO,Medial Frontopolar PFC,Left,1,-1.94578043714474
+subject020,HbO,Medial Frontopolar PFC,Midline,1,-3.10405840226458
+subject020,HbO,Medial Frontopolar PFC,Right,1,-4.18728976991687
+subject020,HbO,Medial PFC,Midline,2,-4.46976677632457
+subject020,HbO,PMC,Left,4,-2.54584648669449
+subject020,HbO,PMC,Right,4,-1.18537046270345
+subject020,HbO,SMA,Left,1,-3.40645449497963
+subject020,HbO,SMA,Right,1,-2.91228027119507
+subject020,HbO,VL PFC,Left,3,-0.364133531915332
+subject020,HbO,VL PFC,Right,3,-5.02678602318234
+subject020,HbR,DL PFC,Left,7,-1.40822362425855
+subject020,HbR,DL PFC,Right,7,0.350734262569612
+subject020,HbR,Lateral Frontopolar PFC,Left,4,-0.415530506993323
+subject020,HbR,Lateral Frontopolar PFC,Right,4,0.323696588666326
+subject020,HbR,M1,Left,1,1.05717555137993
+subject020,HbR,M1,Right,1,0.318169813936223
+subject020,HbR,Medial Frontopolar PFC,Left,1,-0.539588501906946
+subject020,HbR,Medial Frontopolar PFC,Midline,1,-1.36313358873458
+subject020,HbR,Medial Frontopolar PFC,Right,1,-0.427785693598312
+subject020,HbR,Medial PFC,Midline,2,-0.751914652534083
+subject020,HbR,PMC,Left,4,-0.0981882224163292
+subject020,HbR,PMC,Right,4,-1.79105261957429
+subject020,HbR,SMA,Left,1,10.4593129162864
+subject020,HbR,SMA,Right,1,-1.77164433683375
+subject020,HbR,VL PFC,Left,3,0.0445134211274007
+subject020,HbR,VL PFC,Right,3,0.636801218918528
+subject021,HbO,DL PFC,Left,7,-0.163235886793606
+subject021,HbO,DL PFC,Right,7,-5.37236288973148
+subject021,HbO,Lateral Frontopolar PFC,Left,4,-3.33718552068818
+subject021,HbO,Lateral Frontopolar PFC,Right,4,-5.68419512755492
+subject021,HbO,M1,Left,1,-4.25140502424209
+subject021,HbO,M1,Right,1,-3.73737063323629
+subject021,HbO,Medial Frontopolar PFC,Left,1,-1.51467205879135
+subject021,HbO,Medial Frontopolar PFC,Midline,1,-3.55204921415634
+subject021,HbO,Medial Frontopolar PFC,Right,1,-1.53530256757676
+subject021,HbO,Medial PFC,Midline,2,-3.33213553416636
+subject021,HbO,PMC,Left,4,-1.66177414263492
+subject021,HbO,PMC,Right,4,-1.15904735314692
+subject021,HbO,SMA,Left,1,-2.94539391327147
+subject021,HbO,SMA,Right,1,-1.4434734766614
+subject021,HbO,VL PFC,Left,3,-3.10672494143105
+subject021,HbO,VL PFC,Right,3,-3.00274506780714
+subject021,HbR,DL PFC,Left,7,1.15226806304915
+subject021,HbR,DL PFC,Right,7,0.39509668568359
+subject021,HbR,Lateral Frontopolar PFC,Left,4,0.837233705965773
+subject021,HbR,Lateral Frontopolar PFC,Right,4,0.933210503612156
+subject021,HbR,M1,Left,1,1.79969449782086
+subject021,HbR,M1,Right,1,-0.435291399935556
+subject021,HbR,Medial Frontopolar PFC,Left,1,-1.84587331210784
+subject021,HbR,Medial Frontopolar PFC,Midline,1,1.23224566114348
+subject021,HbR,Medial Frontopolar PFC,Right,1,1.70409209906867
+subject021,HbR,Medial PFC,Midline,2,0.180167240859025
+subject021,HbR,PMC,Left,4,-2.37635800513855
+subject021,HbR,PMC,Right,4,-0.31196844192881
+subject021,HbR,SMA,Left,1,2.28320567772283
+subject021,HbR,SMA,Right,1,5.37103193685693
+subject021,HbR,VL PFC,Left,3,-0.255046479568967
+subject021,HbR,VL PFC,Right,3,4.5079843481196
+subject022,HbO,DL PFC,Left,7,-10.4267734888146
+subject022,HbO,DL PFC,Right,7,-3.28382177859267
+subject022,HbO,Lateral Frontopolar PFC,Left,4,20.1742865370261
+subject022,HbO,Lateral Frontopolar PFC,Right,4,-2.7851483398449
+subject022,HbO,M1,Left,1,0.0884704128512506
+subject022,HbO,M1,Right,1,-14.2100274520881
+subject022,HbO,Medial Frontopolar PFC,Left,1,-0.261269767419388
+subject022,HbO,Medial Frontopolar PFC,Midline,1,-3.35587156520191
+subject022,HbO,Medial Frontopolar PFC,Right,1,0.835982673380071
+subject022,HbO,Medial PFC,Midline,2,24.6388408310682
+subject022,HbO,PMC,Left,4,4.23450232334624
+subject022,HbO,PMC,Right,4,3.51178377703817
+subject022,HbO,SMA,Left,1,17.8071922596118
+subject022,HbO,SMA,Right,1,12.1153636076669
+subject022,HbO,VL PFC,Left,3,-4.43596828634547
+subject022,HbO,VL PFC,Right,3,6.57251941043628
+subject022,HbR,DL PFC,Left,7,-0.865076693573773
+subject022,HbR,DL PFC,Right,7,1.42630137164114
+subject022,HbR,Lateral Frontopolar PFC,Left,4,1.7573217625225
+subject022,HbR,Lateral Frontopolar PFC,Right,4,-0.727659863023188
+subject022,HbR,M1,Left,1,4.75760519680016
+subject022,HbR,M1,Right,1,-0.793424525098484
+subject022,HbR,Medial Frontopolar PFC,Left,1,-0.127030851335932
+subject022,HbR,Medial Frontopolar PFC,Midline,1,0.647519230694355
+subject022,HbR,Medial Frontopolar PFC,Right,1,2.18640175362949
+subject022,HbR,Medial PFC,Midline,2,0.017833966208055
+subject022,HbR,PMC,Left,4,3.50617560507455
+subject022,HbR,PMC,Right,4,6.80852674598944
+subject022,HbR,SMA,Left,1,6.03796906067895
+subject022,HbR,SMA,Right,1,-7.46803223067605
+subject022,HbR,VL PFC,Left,3,0.612432383733563
+subject022,HbR,VL PFC,Right,3,1.36248050490955
+subject023,HbO,DL PFC,Left,7,5.70842964252156
+subject023,HbO,DL PFC,Right,7,-3.98841783281334
+subject023,HbO,Lateral Frontopolar PFC,Left,4,3.55091803490631
+subject023,HbO,Lateral Frontopolar PFC,Right,4,0.649510065893307
+subject023,HbO,M1,Left,1,2.36969252730614
+subject023,HbO,M1,Right,1,5.6046316640558
+subject023,HbO,Medial Frontopolar PFC,Left,1,0.330832146430965
+subject023,HbO,Medial Frontopolar PFC,Midline,1,2.75122302308005
+subject023,HbO,Medial Frontopolar PFC,Right,1,-0.526964313815137
+subject023,HbO,Medial PFC,Midline,2,4.51950413260394
+subject023,HbO,PMC,Left,4,1.05494620338222
+subject023,HbO,PMC,Right,4,2.6542267971041
+subject023,HbO,SMA,Left,1,8.33910628877067
+subject023,HbO,SMA,Right,1,2.80954439746981
+subject023,HbO,VL PFC,Left,3,5.08607572949196
+subject023,HbO,VL PFC,Right,3,-0.0719463605286732
+subject023,HbR,DL PFC,Left,7,-1.93777461786522
+subject023,HbR,DL PFC,Right,7,-3.22591387392683
+subject023,HbR,Lateral Frontopolar PFC,Left,4,-0.229575322853815
+subject023,HbR,Lateral Frontopolar PFC,Right,4,-2.3362553237908
+subject023,HbR,M1,Left,1,-0.819996701486735
+subject023,HbR,M1,Right,1,-1.852748676058
+subject023,HbR,Medial Frontopolar PFC,Left,1,-1.14061465885275
+subject023,HbR,Medial Frontopolar PFC,Midline,1,-1.16299732593003
+subject023,HbR,Medial Frontopolar PFC,Right,1,-0.450324441818194
+subject023,HbR,Medial PFC,Midline,2,0.213351868554145
+subject023,HbR,PMC,Left,4,-1.03028587870159
+subject023,HbR,PMC,Right,4,-0.147882576257145
+subject023,HbR,SMA,Left,1,1.19959203390303
+subject023,HbR,SMA,Right,1,4.59113746634818
+subject023,HbR,VL PFC,Left,3,-2.66374232523277
+subject023,HbR,VL PFC,Right,3,-0.723304550649113
+subject024,HbO,DL PFC,Left,7,1.31087210243247
+subject024,HbO,DL PFC,Right,7,-0.05291035503746
+subject024,HbO,Lateral Frontopolar PFC,Left,4,-2.68876506052959
+subject024,HbO,Lateral Frontopolar PFC,Right,4,2.30860691460907
+subject024,HbO,M1,Left,1,0.34004553229246
+subject024,HbO,M1,Right,1,0.179747227151717
+subject024,HbO,Medial Frontopolar PFC,Left,1,-3.18691900839785
+subject024,HbO,Medial Frontopolar PFC,Midline,1,1.73669775915161
+subject024,HbO,Medial Frontopolar PFC,Right,1,1.35460594337353
+subject024,HbO,Medial PFC,Midline,2,2.05193378979653
+subject024,HbO,PMC,Left,4,0.402298471508868
+subject024,HbO,PMC,Right,4,2.12503185005499
+subject024,HbO,SMA,Left,1,1.96831092776372
+subject024,HbO,SMA,Right,1,-0.395969971934245
+subject024,HbO,VL PFC,Left,3,-3.34650846618693
+subject024,HbO,VL PFC,Right,3,3.20356215324135
+subject024,HbR,DL PFC,Left,7,-0.396971038536526
+subject024,HbR,DL PFC,Right,7,0.792147644750241
+subject024,HbR,Lateral Frontopolar PFC,Left,4,-1.90724639360115
+subject024,HbR,Lateral Frontopolar PFC,Right,4,1.17013128430844
+subject024,HbR,M1,Left,1,-0.729824457265227
+subject024,HbR,M1,Right,1,0.181132489225496
+subject024,HbR,Medial Frontopolar PFC,Left,1,1.13368912858616
+subject024,HbR,Medial Frontopolar PFC,Midline,1,2.7493851990277
+subject024,HbR,Medial Frontopolar PFC,Right,1,2.39271675801545
+subject024,HbR,Medial PFC,Midline,2,-0.338692549751558
+subject024,HbR,PMC,Left,4,0.742612491783294
+subject024,HbR,PMC,Right,4,0.492916314577776
+subject024,HbR,SMA,Left,1,1.81317382310563
+subject024,HbR,SMA,Right,1,0.955101599733568
+subject024,HbR,VL PFC,Left,3,0.479730814866406
+subject024,HbR,VL PFC,Right,3,0.87720795952875
+subject025,HbO,DL PFC,Left,7,-3.06276226866337
+subject025,HbO,DL PFC,Right,7,-2.69867540938685
+subject025,HbO,Lateral Frontopolar PFC,Left,4,-5.02199053118573
+subject025,HbO,Lateral Frontopolar PFC,Right,4,-3.66298588951384
+subject025,HbO,M1,Left,1,-3.39880089807408
+subject025,HbO,M1,Right,1,-2.15344307402384
+subject025,HbO,Medial Frontopolar PFC,Left,1,-3.12953665500807
+subject025,HbO,Medial Frontopolar PFC,Midline,1,-2.17118947250907
+subject025,HbO,Medial Frontopolar PFC,Right,1,0.220631185041296
+subject025,HbO,Medial PFC,Midline,2,-5.39512774291125
+subject025,HbO,PMC,Left,4,-2.07684829109445
+subject025,HbO,PMC,Right,4,-4.93744832158237
+subject025,HbO,SMA,Left,1,-1.60423421910485
+subject025,HbO,SMA,Right,1,-7.02459677645483
+subject025,HbO,VL PFC,Left,3,0.0698997000158267
+subject025,HbO,VL PFC,Right,3,0.564789909176876
+subject025,HbR,DL PFC,Left,7,0.413133479160218
+subject025,HbR,DL PFC,Right,7,0.0970531771632575
+subject025,HbR,Lateral Frontopolar PFC,Left,4,-0.17081185059717
+subject025,HbR,Lateral Frontopolar PFC,Right,4,1.01565365365256
+subject025,HbR,M1,Left,1,-0.876977176174724
+subject025,HbR,M1,Right,1,-0.530665095946978
+subject025,HbR,Medial Frontopolar PFC,Left,1,-0.1316453295181
+subject025,HbR,Medial Frontopolar PFC,Midline,1,0.583208980263356
+subject025,HbR,Medial Frontopolar PFC,Right,1,1.03482224411724
+subject025,HbR,Medial PFC,Midline,2,2.41863652588818
+subject025,HbR,PMC,Left,4,-0.73610270106219
+subject025,HbR,PMC,Right,4,0.474973116465566
+subject025,HbR,SMA,Left,1,0.352808144527396
+subject025,HbR,SMA,Right,1,7.68879528814875
+subject025,HbR,VL PFC,Left,3,-0.389362097170786
+subject025,HbR,VL PFC,Right,3,-2.38048512943037
+subject026,HbO,DL PFC,Left,7,4.17385803321793
+subject026,HbO,DL PFC,Right,7,1.17256850881412
+subject026,HbO,Lateral Frontopolar PFC,Left,4,4.478146818031
+subject026,HbO,Lateral Frontopolar PFC,Right,4,2.20258745649354
+subject026,HbO,M1,Left,1,5.25391937618511
+subject026,HbO,M1,Right,1,4.33706612195425
+subject026,HbO,Medial Frontopolar PFC,Left,1,2.666319771649
+subject026,HbO,Medial Frontopolar PFC,Midline,1,2.25054384385331
+subject026,HbO,Medial Frontopolar PFC,Right,1,-0.733387410505908
+subject026,HbO,Medial PFC,Midline,2,5.31639789414182
+subject026,HbO,PMC,Left,4,2.72921966184677
+subject026,HbO,PMC,Right,4,2.89081724120784
+subject026,HbO,SMA,Left,1,-6.63216997595295
+subject026,HbO,SMA,Right,1,7.63729857942602
+subject026,HbO,VL PFC,Left,3,5.57377108520544
+subject026,HbO,VL PFC,Right,3,1.71949713617819
+subject026,HbR,DL PFC,Left,7,2.59146271301098
+subject026,HbR,DL PFC,Right,7,0.991167578679889
+subject026,HbR,Lateral Frontopolar PFC,Left,4,1.21963531892861
+subject026,HbR,Lateral Frontopolar PFC,Right,4,2.48153326851566
+subject026,HbR,M1,Left,1,10.1255823249482
+subject026,HbR,M1,Right,1,3.98365416964394
+subject026,HbR,Medial Frontopolar PFC,Left,1,2.3804464075983
+subject026,HbR,Medial Frontopolar PFC,Midline,1,2.40857676455494
+subject026,HbR,Medial Frontopolar PFC,Right,1,-4.2431331126482
+subject026,HbR,Medial PFC,Midline,2,2.23162370134859
+subject026,HbR,PMC,Left,4,1.69629312426526
+subject026,HbR,PMC,Right,4,2.34400309163231
+subject026,HbR,SMA,Left,1,-6.19677628504906
+subject026,HbR,SMA,Right,1,2.66397155054156
+subject026,HbR,VL PFC,Left,3,5.02752137678128
+subject026,HbR,VL PFC,Right,3,-0.347965841344008
+subject027,HbO,DL PFC,Left,7,-5.27132509136016
+subject027,HbO,DL PFC,Right,7,7.52199798022401
+subject027,HbO,Lateral Frontopolar PFC,Left,4,2.39560964304631
+subject027,HbO,Lateral Frontopolar PFC,Right,4,2.47394225608735
+subject027,HbO,M1,Left,1,11.1679583012291
+subject027,HbO,M1,Right,1,11.6575121977871
+subject027,HbO,Medial Frontopolar PFC,Left,1,4.33733194410683
+subject027,HbO,Medial Frontopolar PFC,Midline,1,3.97387675112351
+subject027,HbO,Medial Frontopolar PFC,Right,1,10.7319507654435
+subject027,HbO,Medial PFC,Midline,2,4.07306653991756
+subject027,HbO,PMC,Left,4,-4.55315792453248
+subject027,HbO,PMC,Right,4,0.340965958145083
+subject027,HbO,SMA,Left,1,-0.714243523730093
+subject027,HbO,SMA,Right,1,-15.9651000306779
+subject027,HbO,VL PFC,Left,3,4.93718510105193
+subject027,HbO,VL PFC,Right,3,7.92820014753369
+subject027,HbR,DL PFC,Left,7,-1.80397688467244
+subject027,HbR,DL PFC,Right,7,-2.89302275387087
+subject027,HbR,Lateral Frontopolar PFC,Left,4,-0.712126161560931
+subject027,HbR,Lateral Frontopolar PFC,Right,4,0.26254153966107
+subject027,HbR,M1,Left,1,-2.07663639881307
+subject027,HbR,M1,Right,1,-5.08067043811375
+subject027,HbR,Medial Frontopolar PFC,Left,1,-1.21364346617628
+subject027,HbR,Medial Frontopolar PFC,Midline,1,-0.39737892736606
+subject027,HbR,Medial Frontopolar PFC,Right,1,7.93047478933348
+subject027,HbR,Medial PFC,Midline,2,-2.50559613602974
+subject027,HbR,PMC,Left,4,1.68299946165953
+subject027,HbR,PMC,Right,4,0.0703054223887625
+subject027,HbR,SMA,Left,1,0.723989882697148
+subject027,HbR,SMA,Right,1,3.15467653888384
+subject027,HbR,VL PFC,Left,3,-1.38384613645373
+subject027,HbR,VL PFC,Right,3,-4.11193313272814
+subject028,HbO,DL PFC,Left,7,-0.360134389397019
+subject028,HbO,DL PFC,Right,7,-0.920999131293033
+subject028,HbO,Lateral Frontopolar PFC,Left,4,-0.739335106465161
+subject028,HbO,Lateral Frontopolar PFC,Right,4,-1.05997292202247
+subject028,HbO,M1,Left,1,-2.90147834124396
+subject028,HbO,M1,Right,1,-1.22107408102232
+subject028,HbO,Medial Frontopolar PFC,Left,1,-1.26236144413155
+subject028,HbO,Medial Frontopolar PFC,Midline,1,0.220814273976904
+subject028,HbO,Medial Frontopolar PFC,Right,1,-3.59123985712285
+subject028,HbO,Medial PFC,Midline,2,-1.74773684912615
+subject028,HbO,PMC,Left,4,-1.26274428741228
+subject028,HbO,PMC,Right,4,1.07587193783896
+subject028,HbO,SMA,Left,1,1.04141529731187
+subject028,HbO,SMA,Right,1,-0.0770371957183631
+subject028,HbO,VL PFC,Left,3,-4.64196872084637
+subject028,HbO,VL PFC,Right,3,1.33293843330846
+subject028,HbR,DL PFC,Left,7,-0.967569567923872
+subject028,HbR,DL PFC,Right,7,-0.132959874571594
+subject028,HbR,Lateral Frontopolar PFC,Left,4,-0.86286903110172
+subject028,HbR,Lateral Frontopolar PFC,Right,4,-0.558789264932174
+subject028,HbR,M1,Left,1,-2.15162323818044
+subject028,HbR,M1,Right,1,-0.69527497686496
+subject028,HbR,Medial Frontopolar PFC,Left,1,-1.74765294620749
+subject028,HbR,Medial Frontopolar PFC,Midline,1,-0.728898585885753
+subject028,HbR,Medial Frontopolar PFC,Right,1,-1.09685683801096
+subject028,HbR,Medial PFC,Midline,2,-0.69206780529476
+subject028,HbR,PMC,Left,4,-0.175234794595416
+subject028,HbR,PMC,Right,4,-1.01325896195177
+subject028,HbR,SMA,Left,1,1.80069961195012
+subject028,HbR,SMA,Right,1,-0.202855120395149
+subject028,HbR,VL PFC,Left,3,-1.63044507807036
+subject028,HbR,VL PFC,Right,3,0.600535058364351
+subject029,HbO,DL PFC,Left,7,-0.41856319573722
+subject029,HbO,DL PFC,Right,7,0.166324148650775
+subject029,HbO,Lateral Frontopolar PFC,Left,4,0.141332596736811
+subject029,HbO,Lateral Frontopolar PFC,Right,4,-0.0831257102139627
+subject029,HbO,M1,Left,1,1.83050393938598
+subject029,HbO,M1,Right,1,-0.805169553987259
+subject029,HbO,Medial Frontopolar PFC,Left,1,0.3610612743424
+subject029,HbO,Medial Frontopolar PFC,Midline,1,-0.75860187978925
+subject029,HbO,Medial Frontopolar PFC,Right,1,0.377088788970634
+subject029,HbO,Medial PFC,Midline,2,-0.728179795759623
+subject029,HbO,PMC,Left,4,0.491595554341474
+subject029,HbO,PMC,Right,4,-0.297589700589028
+subject029,HbO,SMA,Left,1,-1.53193781160491
+subject029,HbO,SMA,Right,1,0.328645731573125
+subject029,HbO,VL PFC,Left,3,0.635832353633793
+subject029,HbO,VL PFC,Right,3,-0.58257247006498
+subject029,HbR,DL PFC,Left,7,0.0828048395523868
+subject029,HbR,DL PFC,Right,7,-0.459280888060478
+subject029,HbR,Lateral Frontopolar PFC,Left,4,-0.290572187914427
+subject029,HbR,Lateral Frontopolar PFC,Right,4,-0.118746006089736
+subject029,HbR,M1,Left,1,-0.0296576546446817
+subject029,HbR,M1,Right,1,0.482658632986962
+subject029,HbR,Medial Frontopolar PFC,Left,1,-0.129729550668229
+subject029,HbR,Medial Frontopolar PFC,Midline,1,-0.116631623379067
+subject029,HbR,Medial Frontopolar PFC,Right,1,0.10839968650187
+subject029,HbR,Medial PFC,Midline,2,1.35000829619107
+subject029,HbR,PMC,Left,4,1.42362735800586
+subject029,HbR,PMC,Right,4,0.357017778000733
+subject029,HbR,SMA,Left,1,0.41123601912314
+subject029,HbR,SMA,Right,1,6.21851812459762
+subject029,HbR,VL PFC,Left,3,-1.87983695166813
+subject029,HbR,VL PFC,Right,3,-0.196656705321549
+subject030,HbO,DL PFC,Left,7,-0.475620079973967
+subject030,HbO,DL PFC,Right,7,-0.234006729847047
+subject030,HbO,Lateral Frontopolar PFC,Left,4,-0.357082133185412
+subject030,HbO,Lateral Frontopolar PFC,Right,4,-0.301216454627862
+subject030,HbO,M1,Left,1,-0.942728916920688
+subject030,HbO,M1,Right,1,-0.454158494862729
+subject030,HbO,Medial Frontopolar PFC,Left,1,-0.706598431833717
+subject030,HbO,Medial Frontopolar PFC,Midline,1,-1.01638036267954
+subject030,HbO,Medial Frontopolar PFC,Right,1,0.645118463070398
+subject030,HbO,Medial PFC,Midline,2,-0.332560301323445
+subject030,HbO,PMC,Left,4,-0.773521179249595
+subject030,HbO,PMC,Right,4,-0.510951899681486
+subject030,HbO,SMA,Left,1,-1.25524255732739
+subject030,HbO,SMA,Right,1,-0.371305313499975
+subject030,HbO,VL PFC,Left,3,0.401342258745311
+subject030,HbO,VL PFC,Right,3,-0.85026629608011
+subject030,HbR,DL PFC,Left,7,-0.285066202107167
+subject030,HbR,DL PFC,Right,7,0.188016469324991
+subject030,HbR,Lateral Frontopolar PFC,Left,4,-0.0248366994803722
+subject030,HbR,Lateral Frontopolar PFC,Right,4,-0.268440301503609
+subject030,HbR,M1,Left,1,-0.441106528672319
+subject030,HbR,M1,Right,1,-1.00480168914587
+subject030,HbR,Medial Frontopolar PFC,Left,1,0.0541031006624914
+subject030,HbR,Medial Frontopolar PFC,Midline,1,-0.0712608362974296
+subject030,HbR,Medial Frontopolar PFC,Right,1,0.489937899269266
+subject030,HbR,Medial PFC,Midline,2,-0.203204005925953
+subject030,HbR,PMC,Left,4,-0.284735258708578
+subject030,HbR,PMC,Right,4,-0.151233534639894
+subject030,HbR,SMA,Left,1,0.447521111437628
+subject030,HbR,SMA,Right,1,-0.323931898911389
+subject030,HbR,VL PFC,Left,3,0.236742762026594
+subject030,HbR,VL PFC,Right,3,-0.322819174542345
