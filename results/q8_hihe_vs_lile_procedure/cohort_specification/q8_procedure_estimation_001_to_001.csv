@@ -1,3 +1,0 @@
-subject_id,subject_num,hemoglobin,status,skipped_existing,n_betas,n_channels,effective_df,elapsed_sec
-subject001,1,HbO,success,0,3,61,13618,0.8384033
-subject001,1,HbR,success,0,3,61,13618,0.6909772

@@ -1,4 +1,0 @@
-column_index,regressor,is_unconvolved_baseline,is_hrf_convolved_target,is_constant
-1,Sn(1) ExperimentalBaseline_boxcar (unconvolved),1,0,0
-2,Sn(1) ApplicationOfEndoloopsHIHE*bf(1),0,1,0
-3,Sn(1) constant,0,0,1

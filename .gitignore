@@ -14,3 +14,10 @@
 # System files
 .DS_Store
 Thumbs.db
+# Analysis outputs and participant-level files are kept locally/private.
+results/
+code/results/
+**/subject001/
+**/subject001_pilot/
+**/*_subject001_*
+**/*pilot*

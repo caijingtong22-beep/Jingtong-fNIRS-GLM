@@ -1,3 +1,0 @@
-subject_id,hemoglobin,n_scans,n_columns,rank,task_baseline_correlation,task_vif,qa_pass
-subject006,HbO,10798,3,3,-0.025185185161198,1.00063469613524,1
-subject006,HbR,10798,3,3,0.025185185161198,1.00063469613524,1

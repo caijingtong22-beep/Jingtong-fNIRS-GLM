@@ -1,3 +1,0 @@
-subject_id,session_id,snirf_file,stim_index,condition,occurrence,onset_sec,duration_sec,end_sec,amplitude,role,selection_policy,input_file
-002,101,Subj002_Sess101_run001.snirf,1,ExperimentalBaseline,1,4.5219841003418,21.23366355896,25.7556476593018,1,ExperimentalBaseline_boxcar,single ExperimentalBaseline event,C:\aliceproject\GLM\first_level\nirs_spm_inputs\subject002\subject002_nirs_data.mat
-002,101,Subj002_Sess101_run001.snirf,40,ApplicationOfEndoloopsLIHE,1,1489.30554199219,212.140029907227,1701.44557189941,1,target_phase_HRF,first occurrence by onset_sec,C:\aliceproject\GLM\first_level\nirs_spm_inputs\subject002\subject002_nirs_data.mat

@@ -1,3 +1,0 @@
-subject_id,session_id,snirf_file,stim_index,condition,occurrence,onset_sec,duration_sec,end_sec,amplitude,subject_num
-12,101,Subj012_Sess101_run001.snirf,34,HILoadLE,1,1831.79663085938,23.199743270874,1854.99637413025,1,12
-12,101,Subj012_Sess101_run001.snirf,35,HILoadHE,1,2358.31298828125,33.8165740966797,2392.12956237793,1,12

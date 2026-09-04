@@ -1,3 +1,0 @@
-subject_id,session_id,snirf_file,stim_index,condition,occurrence,onset_sec,duration_sec,end_sec,amplitude,subject_num
-11,101,Subj011_Sess101_run001.snirf,29,DivisionOfMesoappendixLILE,1,1198.91552734375,143.917053222656,1342.83258056641,1,11
-11,101,Subj011_Sess101_run001.snirf,32,DivisionOfMesoappendixHIHE,1,1853.22692871094,249.692153930664,2102.9190826416,1,11

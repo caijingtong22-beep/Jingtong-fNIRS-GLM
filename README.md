@@ -1,17 +1,17 @@
 # Jingtong fNIRS GLM
 
-Reproducible MATLAB/NIRS-SPM scripts and Q10 (HILoad HE minus HILoad LE) outputs for the Jingtong fNIRS project.
+Reproducible primary first-level GLM, group-analysis, and unified topography scripts for the Jingtong fNIRS project.
 
 ## Repository contents
 
-- `code/matlab/`: Q10 first-level specification, estimation, contrast, summary, and plotting scripts.
+- `code/matlab/`: Q1--Q10 primary first-level GLM and group-analysis scripts.
+- `code/python/plot_q1_q10_topographies_mne.py`: the unified MNE-Python topography script used for the final Q1--Q10 maps.
 - `metadata/channel_allocation.csv`: channel type and project ROI allocation.
-- `results/q10/`: all Q10 CSV summaries generated in the current analysis, final figures, and interactive HbO-HbR quadrant plot.
 
 ## Deliberately excluded
 
-Raw SNIRF files, participant-level NIRS-SPM MAT/SPM outputs, time-series data, recordings/transcripts, thesis files, and third-party toolboxes are not included.
+Raw SNIRF files, participant-level NIRS-SPM MAT/SPM outputs, participant-level CSV files, group result tables, generated figures, time-series data, recordings/transcripts, thesis files, and third-party toolboxes are not included.
 
-## Current analytical scope
+## Running the unified plotting script
 
-Q10 contrast is defined as HILoadHE minus HILoadLE. The present results retain all 45 physical long channels, including QC-flagged channels, and do not use short-channel regression. They should therefore be interpreted as current exploratory/reproducible results rather than a final neurophysiological inference.
+The plotting script expects the locally retained group-level CSV files and the validated channel-coordinate CSV. Set the environment variable `FNIRS_REVIEW_ROOT` to the private review-data directory before running it. These data are intentionally not stored in this public repository.

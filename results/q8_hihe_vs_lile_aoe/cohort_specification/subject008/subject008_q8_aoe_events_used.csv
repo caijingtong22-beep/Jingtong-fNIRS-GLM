@@ -1,3 +1,0 @@
-subject_id,session_id,snirf_file,stim_index,condition,occurrence,onset_sec,duration_sec,end_sec,amplitude,subject_num
-8,101,Subj008_Sess101_run001.snirf,41,ApplicationOfEndoloopsHIHE,1,856.03125,116.391937255859,972.423187255859,1,8
-8,101,Subj008_Sess101_run001.snirf,38,ApplicationOfEndoloopsLILE,1,1275.19946289062,104.398849487305,1379.59831237793,1,8

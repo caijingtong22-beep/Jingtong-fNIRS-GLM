@@ -1,3 +1,0 @@
-subject_id,hemoglobin,n_channels,n_finite_beta,n_p_lt_005,n_q_bh61_lt_005,min_p_two_sided,median_p_two_sided
-subject001,HbO,61,61,60,60,0,9.60613553297174e-70
-subject001,HbR,61,61,57,57,0,2.41725054569363e-32

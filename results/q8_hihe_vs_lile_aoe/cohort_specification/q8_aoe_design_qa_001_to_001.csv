@@ -1,3 +1,0 @@
-subject_id,hemoglobin,n_scans,n_columns,rank,normalized_condition_number,max_abs_correlation,max_vif,qa_pass
-subject001,HbO,13662,3,3,1.0354657506231,0.0348372226378407,1.00121510677371,1
-subject001,HbR,13662,3,3,1.0354657506231,0.0348372226378407,1.00121510677371,1

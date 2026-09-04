@@ -1,5 +1,0 @@
-subject_id,subject_num,selection_policy,nirs_data_file
-subject027,27,full_recording,C:\aliceproject\GLM\first_level\nirs_spm_inputs\subject027\subject027_nirs_data.mat
-subject028,28,full_recording,C:\aliceproject\GLM\first_level\nirs_spm_inputs\subject028\subject028_nirs_data.mat
-subject029,29,full_recording,C:\aliceproject\GLM\first_level\nirs_spm_inputs\subject029\subject029_nirs_data.mat
-subject030,30,full_recording,C:\aliceproject\GLM\first_level\nirs_spm_inputs\subject030\subject030_nirs_data.mat

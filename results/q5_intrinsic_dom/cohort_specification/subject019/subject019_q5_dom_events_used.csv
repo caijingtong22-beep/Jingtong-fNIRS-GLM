@@ -1,5 +1,0 @@
-subject_id,session_id,snirf_file,stim_index,condition,occurrence,onset_sec,duration_sec,end_sec,amplitude,sn
-19,101,Subj019_Sess101_run001.snirf,30,DivisionOfMesoappendixHILE,1,897.122253417969,208.404479980469,1105.52673339844,1,19
-19,101,Subj019_Sess101_run001.snirf,29,DivisionOfMesoappendixLILE,1,1452.34326171875,108.920829772949,1561.2640914917,1,19
-19,101,Subj019_Sess101_run001.snirf,32,DivisionOfMesoappendixHIHE,1,1855.3896484375,107.347961425781,1962.73760986328,1,19
-19,101,Subj019_Sess101_run001.snirf,31,DivisionOfMesoappendixLIHE,1,2248.40893554688,87.6871643066406,2336.09609985352,1,19
